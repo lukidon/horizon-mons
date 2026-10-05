@@ -1,0 +1,42 @@
+{
+  "portraitScale": 1.86,
+  "portraitTranslation": [-0.18, -0.29, 0],
+  "profileScale": 0.76,
+  "profileTranslation": [0, 0.64, 0],
+  "rootBone": "torchic_dawnian",
+  "animations": {
+    "cry": "q.bedrock_stateful('torchic_dawnian', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('torchic_dawnian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('torchic_dawnian', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('torchic_dawnian', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('torchic_dawnian', 'blink')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('torchic_dawnian', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('torchic_dawnian', 'blink')"]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "portraitScale": 1.25,
+  "portraitTranslation": [-0.05,1,1],
+  "profileScale": 0.56,
+  "profileTranslation": [0,0.9,1],
+  "rootBone": "prionuclus",
+  "animations": {
+    "cry": "q.bedrock_stateful('prionuclus', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "HOVER",
+        "PORTRAIT",
+        "NONE"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('prionuclus', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('prionuclus', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('prionuclus', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('prionuclus', 'blink')"
+      ]
+    }
+  }
+}

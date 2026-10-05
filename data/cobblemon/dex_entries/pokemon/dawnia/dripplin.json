@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:dripplin",
+    "speciesId": "cobblemon:dripplin",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

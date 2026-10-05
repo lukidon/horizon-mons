@@ -1,0 +1,78 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [-1.2, 1.7, 0],
+ "profileScale": 0.4,
+  "profileTranslation": [0.1, 1, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('varunalas', 'cry')"
+  },
+  "poses": {
+    "in-air": {
+      "poseTypes": ["STAND", "WALK"],
+      "condition": "q.in_air",
+      "animations": [
+        "q.bedrock('varunalas', 'ride_jump')",
+        "q.bedrock('varunalas', 'empty_ride')",
+        "q.bedrock_stateful('varunalas', 'blink')"
+      ],
+      "transformTicks": 5,
+      "transformToTicks": 5
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head', 1, 1, 5, -5, 15, -15)",
+        "q.bedrock('varunalas', 'ground_idle')",
+        "q.bedrock_stateful('varunalas', 'blink')"
+      ],
+      "transformTicks": 5
+    },
+    "walk": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.bedrock('varunalas', 'ground_walk')",
+        "q.bedrock_stateful('varunalas', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity && !q.in_air",
+          "animation": "q.bedrock('varunalas', 'empty_ride')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "run": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.bedrock('varunalas', 'ground_run')",
+        "q.bedrock_stateful('varunalas', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity && !q.in_air",
+          "animation": "q.bedrock('varunalas', 'empty_ride')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('varunalas', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('varunalas', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('varunalas', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('varunalas', 'ground_walk')"
+      ]
+    }
+  }
+ }

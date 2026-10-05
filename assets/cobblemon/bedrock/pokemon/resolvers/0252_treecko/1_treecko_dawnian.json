@@ -1,0 +1,48 @@
+{
+  "species": "cobblemon:treecko",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "dawnian"
+      ],
+      "poser": "cobblemon:treecko_dawnian",
+      "model": "cobblemon:treecko_dawnian.geo",
+      "texture": "cobblemon:textures/pokemon/0252_treecko/treecko_dawnian.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0252_treecko/treecko_dawnian_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "dawnian"
+      ],
+      "texture": "cobblemon:textures/pokemon/0252_treecko/treecko_dawnian_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0252_treecko/treecko_dawnian_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dawnian",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0252_treecko/treecko_dawnian_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

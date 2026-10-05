@@ -1,0 +1,179 @@
+{
+  "target": "cobblemon:mudkip",
+  "features": [
+    "dawnian"
+  ],
+  "forms": [
+    {
+      "name": "Dawnian",
+      "primaryType": "grass",
+      "maleRatio": 0.875,
+      "height": 4,
+      "weight": 76,
+      "pokedex": [
+        "cobblemon.species.mudkip_dawnian.desc"
+      ],
+      "aspects": [
+        "dawnian"
+      ],
+      "labels": [
+        "genhorizon",
+        "dawnian_form",
+        "generation3"
+      ],
+      "abilities": [
+        "overgrow",
+        "h:guts"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defence": 50,
+        "special_attack": 40,
+        "special_defence": 50,
+        "speed": 35
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:lily_pad",
+            "quantityRange": "0-1"
+          }
+        ]
+      },
+      "moves": [
+        "1:foresight",
+        "1:growl",
+        "1:tackle",
+        "3:leafage",
+        "6:rocksmash",
+        "9:counter",
+        "12:protect",
+        "15:supersonic",
+        "18:seedbomb",
+        "21:brickbreak",
+        "24:takedown",
+        "27:amnesia",
+        "30:gigadrain",
+        "33:screech",
+        "36:endeavor",
+        "39:woodhammer",
+        "egg:bellydrum",
+        "egg:fakeout",
+        "egg:curse",
+        "egg:doubleedge",
+        "egg:mirrorcoat",
+        "egg:refresh",
+        "egg:yawn",
+        "egg:wideguard",
+        "tm:amnesia",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulletseed",
+        "tm:confide",
+        "tm:curse",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:doubleedge",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:gigadrain",
+        "tm:grasspledge",
+        "tm:grassyterrain",
+        "tm:headbutt",
+        "tm:irontail",
+        "tm:lowkick",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:screech",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:sludgewave",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:uproar",
+        "tm:workup"
+      ],
+      "evolutions": [
+        {
+          "id": "mudkip_marshtomp_dawnian",
+          "variant": "level_up",
+          "result": "marshtomp dawnian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "razorleaf"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 16
+            }
+          ],
+          "requiredContext": ""
+        }
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "herd": {
+          "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "mudkip dawnian",
+          "tier": 1
+        },
+        {
+          "pokemon": "marshtomp dawnian",
+          "tier": 2
+        },
+        {
+          "pokemon": "bogolotl",
+          "tier": 3
+        }
+      ]
+    },
+
+        "resting": {
+          "canSleep": false,
+          "depth": "normal",
+          "light": "0-4",
+          "willSleepOnBed": false,
+          "times": "night"
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.3,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.3
+          },
+          "wanderChance": 1
+        }
+      }
+    }
+  ]
+}

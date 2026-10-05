@@ -1,0 +1,50 @@
+{
+   "portraitScale": 1.97,
+  "portraitTranslation": [-0.51, 0.33, 0],
+  "profileScale": 0.77,
+  "profileTranslation": [0, 0.57, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('aveeon', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('aveeon', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('aveeon', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('aveeon', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('aveeon', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('aveeon', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('aveeon', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('aveeon', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('aveeon', 'ground_walk')"
+      ]
+    }
+
+  }
+ }

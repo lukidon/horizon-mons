@@ -1,0 +1,200 @@
+{
+        "target": "cobblemon:heracross",
+        "features": [
+                "dawnian"
+        ],
+        "forms": [
+                {
+                        "implemented": true,
+                        "name": "Dawnian",
+                        "primaryType": "bug",
+                        "secondaryType": "ground",
+                        "maleRatio": 0.5,
+                        "height": 15,
+                        "weight": 540,
+                        "pokedex": [
+                                "cobblemon.species.heracross-dawnian.desc"
+                        ],
+                        "labels": [
+                                "genhorizon",
+                                "dawnian_form",
+                                "generation2"
+                        ],
+                        "aspects": [
+                                "dawnian"
+                        ],
+                        "abilities": [
+                                "swarm",
+                                "shellarmor",
+                                "h:eartheater"
+                        ],
+                        "eggGroups": [
+                                "bug",
+                                "mineral"
+                        ],
+                        "baseStats": {
+                                "hp": 100,
+                                "attack": 95,
+                                "defence": 115,
+                                "special_attack": 40,
+                                "special_defence": 100,
+                                "speed": 50
+                        },
+                        "evYield": {
+                                "hp": 0,
+                                "attack": 2,
+                                "defence": 0,
+                                "special_attack": 0,
+                                "special_defence": 0,
+                                "speed": 0
+                        },
+                        "baseExperienceYield": 175,
+                        "experienceGroup": "slow",
+                        "catchRate": 45,
+                        "eggCycles": 25,
+                        "baseFriendship": 50,
+                        "baseScale": 1,
+                        "hitbox": {
+                                "width": 1.05,
+                                "height": 1.55,
+                                "fixed": false
+                        },
+                         "riding": {
+        "behaviours": {
+              
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "55-70",
+              "JUMP": "35-50",
+              "SKILL": "40-65",
+              "SPEED": "15-30",
+              "STAMINA": "35-50"
+            }
+          }
+        },
+        "seats": [
+          {
+            "locator": "seat_1"
+          }
+        ]
+      },
+                        "behaviour": {
+                                   "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "heracross dawnian alpha",
+          "tier": 1
+        }
+      ]
+    },
+                              
+                                "moving": {
+                                        "fly": {
+                                                "canFly": false
+                                        }
+                                }
+                        },
+                        "drops": {
+                                "amount": 1,
+                                "entries": [
+                                        {
+                                                "item": "cobblemon:coba_berry",
+                                                "percentage": 5.0
+                                        }
+                                ]
+                        },
+                        "moves": [
+                                "1:mudbomb",
+                                "1:chipaway",
+                                "1:sandattack",
+                                "1:tackle",
+                                "5:furyattack",
+                                "10:endure",
+                                "15:aerialace",
+                                "20:hornattack",
+                                "25:spikyshield",
+                                "30:bulldoze",
+                                "35:pinmissile",
+                                "40:throatchop",
+                                "45:thrash",
+                                "50:shoreup",
+                                "55:megahorn",
+                                "60:headlongrush",
+                                "egg:bide",
+                                "egg:doubleedge",
+                                "egg:feint",
+                                "egg:flail",
+                                "egg:nightslash",
+                                "egg:pursuit",
+                                "egg:seismictoss",
+                                "tm:aerialace",
+                                "tm:assurance",
+                                "tm:attract",
+                                "tm:bodypress",
+                                "tm:bodyslam",
+                                "tm:brickbreak",
+                                "tm:brutalswing",
+                                "tm:bugbite",
+                                "tm:bugbuzz",
+                                "tm:bulkup",
+                                "tm:bulldoze",
+                                "tm:bulletseed",
+                                "tm:confide",
+                                "tm:curse",
+                                "tm:cut",
+                                "tm:dig",
+                                "tm:doubleteam",
+                                "tm:doubleedge",
+                                "tm:earthpower",
+                                "tm:earthquake",
+                                "tm:endeavor",
+                                "tm:endure",
+                                "tm:facade",
+                                "tm:falseswipe",
+                                "tm:fling",
+                                "tm:furycutter",
+                                "tm:gigaimpact",
+                                "tm:headbutt",
+                                "tm:highhorsepower",
+                                "tm:hyperbeam",
+                                "tm:irondefense",
+                                "tm:knockoff",
+                                "tm:leechlife",
+                                "tm:lunge",
+                                "tm:megahorn",
+                                "tm:pinmissile",
+                                "tm:pounce",
+                                "tm:protect",
+                                "tm:rest",
+                                "tm:rockblast",
+                                "tm:rockclimb",
+                                "tm:round",
+                                "tm:sandtomb",
+                                "tm:sandstorm",
+                                "tm:scorchingsands",
+                                "tm:shadowclaw",
+                                "tm:skittersmack",
+                                "tm:sleeptalk",
+                                "tm:smartstrike",
+                                "tm:snore",
+                                "tm:spikes",
+                                "tm:stompingtantrum",
+                                "tm:stoneedge",
+                                "tm:strength",
+                                "tm:strugglebug",
+                                "tm:substitute",
+                                "tm:sunnyday",
+                                "tm:takedown",
+                                "tm:terablast",
+                                "tm:thief",
+                                "tm:throatchop",
+                                "tm:trailblaze",
+                                "tm:workup"
+                        ],
+                        "evolutions": []
+                }
+        ]
+}

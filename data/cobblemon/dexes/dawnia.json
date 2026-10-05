@@ -1,0 +1,49 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "cobblemon:dawnia",
+    "sortOrder": 20,
+    "entries": [
+        "cobblemon:treecko-dawnian",
+        "cobblemon:grovyle-dawnian",
+        "cobblemon:varunalas",
+        "cobblemon:torchic-dawnian",
+        "cobblemon:combusken-dawnian",
+        "cobblemon:ameliven",
+        "cobblemon:mudkip-dawnian",
+        "cobblemon:marshtomp-dawnian",
+        "cobblemon:bogolotl",
+        "cobblemon:yamask-dawnian",
+        "cobblemon:luderigus",
+        "cobblemon:numel-dawnian",
+        "cobblemon:camerupt-dawnian",
+        "cobblemon:lameyser",
+        "cobblemon:heracross-dawnian",
+        "cobblemon:scameleon",
+        "cobblemon:queentana",
+        "cobblemon:sableye-dawnian",
+        "cobblemon:wendiglim",
+        "cobblemon:falinks-dawnian",
+        "cobblemon:dripplin",
+        "cobblemon:lindcider",
+        "cobblemon:dwebble-dawnian",
+        "cobblemon:drimpact",
+        "cobblemon:aveeon",
+        "cobblemon:papileon",
+        "cobblemon:glimmet-dawnian",
+        "cobblemon:glimmora-dawnian",
+        "cobblemon:glimmora-dawnian-mega",
+        "cobblemon:musharna-mega",
+        "cobblemon:meowth-dawnian",
+        "cobblemon:perakkii",
+        "cobblemon:virosis",
+        "cobblemon:permosion",
+        "cobblemon:prionuclus",
+        "cobblemon:rotom",
+        "cobblemon:lumberingdunce",
+        "cobblemon:ironexo"
+        
+        
+        
+        
+    ]
+}

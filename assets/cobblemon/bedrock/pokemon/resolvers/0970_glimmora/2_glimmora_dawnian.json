@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:glimmora",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [
+        "dawnian"
+      ],
+      "poser": "cobblemon:glimmora_dawnian",
+      "model": "cobblemon:glimmora_dawnian.geo",
+      "texture": "cobblemon:textures/pokemon/0970_glimmora/glimmora_dawnian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "dawnian"
+      ],
+      "texture": "cobblemon:textures/pokemon/0970_glimmora/glimmora_dawnian_shiny.png"
+    },
+    {
+      "aspects": [
+        "dawnian",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0970_glimmora/glimmora_dawnian_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

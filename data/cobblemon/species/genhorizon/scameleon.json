@@ -1,0 +1,203 @@
+{
+        "implemented": true,
+        "nationalPokedexNumber": 4006,
+        "name": "Scameleon",
+        "primaryType": "normal",
+        "secondaryType": "ghost",
+        "maleRatio": 0.5,
+        "height": 10,
+        "weight": 220,
+        "pokedex": [
+                "cobblemon.species.scameleon.desc"
+        ],
+        "labels": [
+                "genhorizon"
+        ],
+        "aspects": [
+                "dawnian"
+        ],
+        "abilities": [
+                "colorchange",
+                "h:protean"
+        ],
+        "eggGroups": [
+                "field"
+        ],
+        "baseStats": {
+                "hp": 78,
+                "attack": 125,
+                "defence": 70,
+                "special_attack": 58,
+                "special_defence": 95,
+                "speed": 105
+        },
+        "evYield": {
+                "hp": 0,
+                "attack": 0,
+                "defence": 0,
+                "special_attack": 0,
+                "special_defence": 1,
+                "speed": 0
+        },
+        "baseExperienceYield": 154,
+        "experienceGroup": "medium_slow",
+        "catchRate": 200,
+        "eggCycles": 20,
+        "baseFriendship": 50,
+        "baseScale": 0.75,
+        "hitbox": {
+                "width": 0.75,
+                "height": 1.4,
+                "fixed": false
+        },
+        "behaviour": {
+                        "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "scameleon alpha",
+          "tier": 1
+        }
+      ]
+    },
+                "moving": {
+                        "walk": {
+                                "walkSpeed": 0.25
+                        }
+                },
+                "resting": {
+                        "canSleep": true,
+                        "light": "0-4"
+                }
+        },
+        "drops": {
+                "amount": 1,
+                "entries": [
+                        {
+                                "item": "cobblemon:persim_berry",
+                                "percentage": 5.0
+                        }
+                ]
+        },
+
+        "moves": [
+                "1:shadowswipe",
+                "1:synchronoise",
+                "1:astonish",
+                "1:lick",
+                "1:scratch",
+                "1:tailwhip",
+                "1:thief",
+                "4:bind",
+                "7:shadowsneak",
+                "10:feint",
+                "13:furyswipes",
+                "16:feintattack",
+                "18:psybeam",
+                "21:ancientpower",
+                "25:slash",
+                "30:camouflage",
+                "33:shadowclaw",
+                "38:screech",
+                "44:substitute",
+                "48:suckerpunch",
+                "52:poltergeist",
+                "egg:camouflage",
+                "egg:disable",
+                "egg:dizzypunch",
+                "egg:fakeout",
+                "egg:recover",
+                "tm:aerialace",
+                "tm:afteryou",
+                "tm:ancientpower",
+                "tm:aquatail",
+                "tm:attract",
+                "tm:bind",
+                "tm:bodyslam",
+                "tm:brickbreak",
+                "tm:chargebeam",
+                "tm:confide",
+                "tm:cut",
+                "tm:dig",
+                "tm:doubleteam",
+                "tm:doubleedge",
+                "tm:drainpunch",
+                "tm:encore",
+                "tm:endure",
+                "tm:facade",
+                "tm:fireblast",
+                "tm:firepunch",
+                "tm:flamethrower",
+                "tm:flash",
+                "tm:fling",
+                "tm:focuspunch",
+                "tm:foulplay",
+                "tm:furycutter",
+                "tm:gigaimpact",
+                "tm:grassknot",
+                "tm:headbutt",
+                "tm:hex",
+                "tm:honeclaws",
+                "tm:hyperbeam",
+                "tm:icebeam",
+                "tm:icepunch",
+                "tm:icywind",
+                "tm:incinerate",
+                "tm:irontail",
+                "tm:lastresort",
+                "tm:lowkick",
+                "tm:magiccoat",
+                "tm:megakick",
+                "tm:megapunch",
+                "tm:metronome",
+                "tm:mudslap",
+                "tm:nastyplot",
+                "tm:phantomforce",
+                "tm:poweruppunch",
+                "tm:protect",
+                "tm:psychup",
+                "tm:raindance",
+                "tm:recycle",
+                "tm:rest",
+                "tm:retaliate",
+                "tm:rockslide",
+                "tm:rocksmash",
+                "tm:rocktomb",
+                "tm:roleplay",
+                "tm:rollout",
+                "tm:round",
+                "tm:scaleshot",
+                "tm:screech",
+                "tm:shadowball",
+                "tm:shadowclaw",
+                "tm:shockwave",
+                "tm:skillswap",
+                "tm:sleeptalk",
+                "tm:snatch",
+                "tm:snore",
+                "tm:solarbeam",
+                "tm:spite",
+                "tm:stealthrock",
+                "tm:strength",
+                "tm:substitute",
+                "tm:suckerpunch",
+                "tm:sunnyday",
+                "tm:swift",
+                "tm:taunt",
+                "tm:terablast",
+                "tm:thief",
+                "tm:thunder",
+                "tm:thunderpunch",
+                "tm:thunderwave",
+                "tm:thunderbolt",
+                "tm:trailblaze",
+                "tm:trick",
+                "tm:trickroom",
+                "tm:uturn",
+                "tm:waterpulse",
+                "tm:wonderroom",
+                "tm:workup"
+        ],
+        "preEvolution": "kecleon",
+        "evolutions": []
+}

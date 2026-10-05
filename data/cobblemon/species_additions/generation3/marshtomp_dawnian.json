@@ -1,0 +1,190 @@
+{
+  "target": "cobblemon:marshtomp",
+  "features": [
+    "dawnian"
+  ],
+  "forms": [
+    {
+      "name": "Dawnian",
+      "primaryType": "grass",
+      "maleRatio": 0.875,
+      "height": 7,
+      "weight": 280,
+      "pokedex": [
+        "cobblemon.species.marshtomp_dawnian.desc"
+      ],
+      "aspects": [
+        "dawnian"
+      ],
+      "labels": [
+        "genhorizon",
+        "dawnian_form",
+        "generation3"
+      ],
+      "abilities": [
+        "overgrow",
+        "h:guts"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 95,
+        "defence": 70,
+        "special_attack": 50,
+        "special_defence": 60,
+        "speed": 50
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:lily_pad",
+            "quantityRange": "0-1"
+          }
+        ]
+      },
+      "moves": [
+        "1:bide",
+        "1:rototiller",
+        "1:bulkup",
+        "1:armthrust",
+        "1:leaftornado",
+        "1:foresight",
+        "1:growl",
+        "1:tackle",
+        "3:leafage",
+        "6:rocksmash",
+        "9:counter",
+        "12:protect",
+        "15:supersonic",
+        "20:seedbomb",
+        "25:brickbreak",
+        "30:takedown",
+        "35:amnesia",
+        "40:gigadrain",
+        "45:screech",
+        "50:endeavor",
+        "55:woodhammer",
+        "egg:bellydrum",
+        "egg:fakeout",
+        "egg:curse",
+        "egg:doubleedge",
+        "egg:mirrorcoat",
+        "egg:refresh",
+        "egg:yawn",
+        "egg:wideguard",
+        "tm:amnesia",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:confide",
+        "tm:curse",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:doubleedge",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:gigadrain",
+        "tm:grasspledge",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:headbutt",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:lowkick",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:naturepower",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:revenge",
+        "tm:reversal",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:screech",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:sludgewave",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:synthesis",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:uproar",
+        "tm:workup"
+      ],
+      "evolutions": [
+        {
+          "id": "marhstomp_bogolotl",
+          "variant": "level_up",
+          "result": "bogolotl",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "uproot"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 36
+            }
+          ],
+          "requiredContext": ""
+        }
+      ],
+      "battleOnly": false,
+      "behaviour": {
+       "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "marshtomp dawnian",
+          "tier": 1
+        },
+        {
+          "pokemon": "bogolotl",
+          "tier": 2
+        }
+      ]
+    },
+        "resting": {
+          "canSleep": false,
+          "depth": "normal",
+          "light": "0-4",
+          "willSleepOnBed": false,
+          "times": "night"
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.3,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.3
+          },
+          "wanderChance": 1
+        }
+      }
+    }
+  ]
+}

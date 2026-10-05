@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:papileon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:papileon",
+      "model": "cobblemon:papileon.geo",
+      "texture": "cobblemon:textures/pokemon/4013_papileon/papileon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:papileon",
+      "model": "cobblemon:papileon.geo",
+      "texture": "cobblemon:textures/pokemon/4013_papileon/papileon_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4013_papileon/papileon_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

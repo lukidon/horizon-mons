@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": [
+    "formation"
+  ],
+  "default": "defensive",
+  "choices": [
+    "defensive",
+    "offensive"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-formation"
+}

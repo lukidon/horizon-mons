@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:applin",
+    "evolutions": [
+        {
+            "id": "applin_dripplin",
+            "variant": "item_interact",
+            "result": "dripplin",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+              "stickyshot"
+            ],
+           "requiredContext": {
+    "item": "minecraft:music_disc_13",
+    "components": {
+      "minecraft:custom_data": {
+        "applin_juice": true
+      }
+    }
+  }
+        }
+      ]
+}

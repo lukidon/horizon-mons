@@ -1,0 +1,136 @@
+{
+  "target": "cobblemon:glimmora",
+  "forms": [
+    {
+      "name": "Dawnian",
+      "primaryType": "poison",
+      "secondaryType": "flying",
+      "preEvolution": "glimmet dawnian",
+      "pokedex": [
+        "cobblemon.species.glimmora-dawnian.desc"
+      ],
+      "maleRatio": 0.5,
+      "height": 15,
+      "weight": 135,
+      "labels": [
+        "genhorizon",
+        "dawnian_form",
+        "generation9"
+      ],
+      "aspects": [
+        "dawnian"
+      ],
+      "abilities": [
+        "tintedlens",
+        "h:corrosion"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 75,
+        "defence": 65,
+        "special_attack": 110,
+        "special_defence": 95,
+        "speed": 105
+      },
+       "behaviour": {
+        "herd": {
+           "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "glimmora dawnian",
+          "tier": 1
+        }
+      ]
+    },
+                "moving": {
+                    "fly": {
+                        "canFly": true
+                    },
+                    "swim": {
+                        "avoidsWater": true
+                    },
+                    "canLook": false,
+                    "walk": {
+                        "canWalk": true
+                    }
+                }
+            },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:amethyst_shard",
+            "quantityRange": "0-1"
+          }
+        ]
+      },
+      "moves": [
+        "1:mortalspin",
+        "1:spikyshield",
+        "1:toxicspikes",
+        "1:harden",
+        "1:gust",
+        "1:peck",
+        "7:acidspray",
+        "11:mirrormove",
+        "15:poisonpowder",
+        "18:ragepowder",
+        "22:venoshock",
+        "26:tailwind",
+        "29:selfdestruct",
+        "33:aircutter",
+        "39:airslash",
+        "44:acidarmor",
+        "50:sludgewave",
+        "egg:explosion",
+        "egg:memento",
+        "egg:toxic",
+        "tm:acidspray",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:attract",
+        "tm:confide",
+        "tm:confuseray",
+        "tm:dazzlinggleam",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flashcannon",
+        "tm:fly",
+        "tm:gigaimpact",
+        "tm:gunkshot",
+        "tm:hurricane",
+        "tm:hyperbeam",
+        "tm:icywind",
+        "tm:lightscreen",
+        "tm:mudshot",
+        "tm:ominouswind",
+        "tm:powergem",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:roost",
+        "tm:round",
+        "tm:sandtomb",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:tailwind",
+        "tm:terablast",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:venoshock"
+      ]
+    }
+  ]
+}

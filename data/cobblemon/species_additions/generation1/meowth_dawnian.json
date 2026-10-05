@@ -1,0 +1,209 @@
+{
+    "target": "cobblemon:meowth",
+    "features": [
+        "dawnian"
+    ],
+    "forms": [
+        {
+            "name": "Dawnian",
+            "primaryType": "psychic",
+            "maleRatio": 0.5,
+            "height": 4,
+            "weight": 75,
+            "pokedex": [
+                "cobblemon.species.meowth-dawnian.desc"
+            ],
+            "labels": [
+                "genhorizon",
+                "dawnian_form"
+            ],
+            "aspects": [
+                "dawnian"
+            ],
+            "abilities": [
+                "pickup",
+                "magician",
+                "h:superluck"
+            ],
+            "baseStats": {
+                "hp": 44,
+                "attack": 44,
+                "defence": 44,
+                "special_attack": 44,
+                "special_defence": 44,
+                "speed": 70
+            },
+            "evYield": {
+                "hp": 0,
+                "attack": 0,
+                "defence": 0,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 1
+            },
+            "behaviour": {
+                 "herd": {
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "meowth dawnian alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "perakkii",
+          "tier": 1
+        }
+      ]
+    },
+                "resting": {
+                    "canSleep": true,
+                    "light": "0-4",
+                    "willSleepOnBed": true,
+                    "drowsyChance": 0.0333,
+                    "rouseChance": 0.0042
+                },
+                "moving": {
+                    "walk": {
+                        "walkSpeed": 0.2
+                    },
+                    "swim": {
+                        "avoidsWater": true
+                    }
+                },
+                "entityInteract": {
+                    "avoidedByCreeper": true
+                },
+                "combat": {
+                    "willDefendSelf": true,
+                    "willDefendOwner": true,
+                    "willFlee": false
+                }
+            },
+            "drops": {
+                "amount": 1,
+                "entries": [
+                    {
+                        "item": "cobblemon:loaded_dice"
+                    }
+                ]
+            },
+            "moves": [
+                "1:fakeout",
+                "1:growl",
+                "4:feint",
+                "8:confusion",
+                "12:payday",
+                "16:bite",
+                "20:luckychant",
+                "24:psybeam",
+                "29:furyswipes",
+                "32:screech",
+                "36:psychocut",
+                "40:calmmind",
+                "44:playrough",
+                "egg:assist",
+                "egg:captivate",
+                "egg:feintattack",
+                "egg:flail",
+                "egg:hypnosis",
+                "egg:nightslash",
+                "egg:odorsleuth",
+                "egg:punishment",
+                "tm:aerialace",
+                "tm:agility",
+                "tm:amnesia",
+                "tm:attract",
+                "tm:bodyslam",
+                "tm:calmmind",
+                "tm:charm",
+                "tm:chillingwater",
+                "tm:confide",
+                "tm:covet",
+                "tm:cut",
+                "tm:darkpulse",
+                "tm:dazzlinggleam",
+                "tm:dig",
+                "tm:doubleteam",
+                "tm:doubleedge",
+                "tm:dreameater",
+                "tm:echoedvoice",
+                "tm:endure",
+                "tm:expandingforce",
+                "tm:facade",
+                "tm:falseswipe",
+                "tm:flash",
+                "tm:foulplay",
+                "tm:gunkshot",
+                "tm:headbutt",
+                "tm:helpinghand",
+                "tm:honeclaws",
+                "tm:hypervoice",
+                "tm:icywind",
+                "tm:irontail",
+                "tm:knockoff",
+                "tm:lastresort",
+                "tm:lightscreen",
+                "tm:metalclaw",
+                "tm:painsplit",
+                "tm:payday",
+                "tm:playrough",
+                "tm:powergem",
+                "tm:protect",
+                "tm:psychup",
+                "tm:psychic",
+                "tm:psychicfangs",
+                "tm:psychicnoise",
+                "tm:psychicterrain",
+                "tm:psychocut",
+                "tm:psyshock",
+                "tm:reflect",
+                "tm:rest",
+                "tm:retaliate",
+                "tm:round",
+                "tm:screech",
+                "tm:shadowball",
+                "tm:shadowclaw",
+                "tm:shockwave",
+                "tm:skillswap",
+                "tm:sleeptalk",
+                "tm:snore",
+                "tm:spite",
+                "tm:storedpower",
+                "tm:substitute",
+                "tm:sunnyday",
+                "tm:swift",
+                "tm:takedown",
+                "tm:taunt",
+                "tm:terablast",
+                "tm:thief",
+                "tm:thunder",
+                "tm:thunderwave",
+                "tm:thunderbolt",
+                "tm:trailblaze",
+                "tm:trick",
+                "tm:trickroom",
+                "tm:uturn",
+                "tm:workup",
+                "tm:zenheadbutt"
+            ],
+            "evolutions": [
+                {
+                    "id": "meowth_perakkii",
+                    "variant": "level_up",
+                    "result": "perakkii",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [
+                        "luckydraw"
+                    ],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 28
+                        }
+                    ]
+                }
+            ],
+            "battleOnly": false
+        }
+    ]
+}

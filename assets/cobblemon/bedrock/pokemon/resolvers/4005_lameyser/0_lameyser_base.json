@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:lameyser",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lameyser",
+      "model": "cobblemon:lameyser.geo",
+      "texture": "cobblemon:textures/pokemon/4005_lameyser/lameyser.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/4005_lameyser/lameyser_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}

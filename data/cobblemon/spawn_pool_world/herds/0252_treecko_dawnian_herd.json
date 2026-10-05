@@ -1,0 +1,57 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "treecko-dawnian-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "ultra-rare",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "5-54",
+      "weight": 50.0,
+      
+            "condition": {
+                "biomes": [
+                    "terralith:volcanic_crater",
+                    "terralith:volcanic_peaks",
+                    "terralith:ashen_savanna",
+                    "minecraft:nether_wastes",
+                    "minecraft:crimson_forest"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "treecko dawnian",
+          "weight": 80.0,
+          "levelRange": "8-28",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "grovyle dawnian",
+          "weight": 18.0,
+          "levelRange": "18-37",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "varunalas",
+          "weight": 2.0,
+          "levelRange": "37-49",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

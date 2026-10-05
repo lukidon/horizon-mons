@@ -1,0 +1,50 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [0, 2.5, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [-0.05, 1.2, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('luderigus', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "animations": [
+        "q.bedrock('luderigus', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('luderigus', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('luderigus', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('luderigus', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('luderigus', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('luderigus', 'ground_walk')"
+      ]
+    },
+     "fly": {
+     "poseTypes": ["FLY"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('luderigus', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('luderigus', 'blink')"]
+   },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('luderigus', 'sleep')"]
+    }
+
+  }
+ }

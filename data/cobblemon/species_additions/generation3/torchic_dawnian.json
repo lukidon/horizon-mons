@@ -1,0 +1,184 @@
+{
+    "target": "cobblemon:torchic",
+    "features": [
+        "dawnian"
+    ],
+    "forms": [
+        {
+            "name": "Dawnian",
+            "primaryType": "water",
+            "maleRatio": 0.875,
+            "height": 4,
+            "weight": 25,
+            "pokedex": [
+                "cobblemon.species.torchic_dawnian.desc"
+            ],
+            "aspects": [
+                "dawnian"
+            ],
+            "labels": [
+                "genhorizon",
+                "dawnian_form",
+                "generation3"
+            ],
+            "abilities": [
+                "torrent",
+                "h:stakeout"
+            ],
+            "baseStats": {
+                "hp": 45,
+                "attack": 45,
+                "defence": 40,
+                "special_attack": 70,
+                "special_defence": 60,
+                "speed": 50
+            },
+            "drops": {
+                "amount": 2,
+                "entries": [
+                    {
+                        "item": "minecraft:amethyst_shard",
+                        "quantityRange": "0-1"
+                    }
+                ]
+            },
+            "moves": [
+                "1:growl",
+                "1:peck",
+                "1:scratch",
+                "3:watergun",
+                "6:quickattack",
+                "9:aquajet",
+                "12:detect",
+                "15:mindreader",
+                "18:aircutter",
+                "21:slash",
+                "24:airslash",
+                "27:focusenergy",
+                "30:aquaacutter",
+                "33:featherdance",
+                "36:storedpower",
+                "39:wavecrash",
+                "egg:mirrorcoat",
+                "egg:crushclaw",
+                "egg:feint",
+                "egg:lastresort",
+                "egg:psychocut",
+                "egg:smellingsalts",
+                "tm:agility",
+                "tm:aircutter",
+                "tm:airslash",
+                "tm:attract",
+                "tm:batonpass",
+                "tm:blizzard",
+                "tm:bodyslam",
+                "tm:brine",
+                "tm:chillingwater",
+                "tm:confide",
+                "tm:curse",
+                "tm:cut",
+                "tm:dig",
+                "tm:doubleteam",
+                "tm:doubleedge",
+                "tm:echoedvoice",
+                "tm:endure",
+                "tm:facade",
+                "tm:featherdance",
+                "tm:flipturn",
+                "tm:focusenergy",
+                "tm:headbutt",
+                "tm:helpinghand",
+                "tm:honeclaws",
+                "tm:hydropump",
+                "tm:icebeam",
+                "tm:icywind",
+                "tm:lastresort",
+                "tm:megakick",
+                "tm:protect",
+                "tm:psychocut",
+                "tm:raindance",
+                "tm:rest",
+                "tm:round",
+                "tm:scald",
+                "tm:shadowclaw",
+                "tm:sleeptalk",
+                "tm:snore",
+                "tm:storedpower",
+                "tm:substitute",
+                "tm:surf",
+                "tm:swagger",
+                "tm:swift",
+                "tm:swordsdance",
+                "tm:takedown",
+                "tm:terablast",
+                "tm:uproar",
+                "tm:waterpledge",
+                "tm:waterpulse",
+                "tm:whirlpool",
+                "tm:workup"
+            ],
+            "evolutions": [
+                {
+                    "id": "torchic_combusken_dawnian",
+                    "variant": "level_up",
+                    "result": "combusken dawnian",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [
+                        "psybeam"
+                    ],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 16
+                        }
+                    ],
+                    "requiredContext": ""
+                }
+            ],
+            "battleOnly": false,
+            "behaviour": {
+               "herd": {
+          "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "torchic dawnian",
+          "tier": 1
+        },
+        {
+          "pokemon": "combusken dawnian",
+          "tier": 2
+        },
+        {
+          "pokemon": "ameliven",
+          "tier": 3
+        }
+      ]
+    },
+                "resting": {
+                    "canSleep": false,
+                    "depth": "normal",
+                    "light": "0-4",
+                    "willSleepOnBed": false,
+                    "times": "night"
+                },
+                "moving": {
+                    "canLook": true,
+                    "walk": {
+                        "canWalk": true,
+                        "avoidsLand": false
+                    },
+                    "swim": {
+                        "swimSpeed": 0.3,
+                        "canSwimInWater": true,
+                        "canBreatheUnderwater": true
+                    },
+                    "fly": {
+                        "canFly": false,
+                        "flySpeedHorizontal": 0.3
+                    },
+                    "wanderChance": 1
+                }
+            }
+        }
+    ]
+}

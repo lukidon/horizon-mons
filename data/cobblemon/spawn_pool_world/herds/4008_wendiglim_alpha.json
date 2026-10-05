@@ -1,0 +1,53 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wendiglim-alpha-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "11-100",
+      "weight": 30.0,
+      "condition": {
+                "canSeeSky": false,
+                "minHeight": 2,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            },
+      "herdablePokemon": [
+         {
+          "pokemon": "wendiglim held_item=cobblemon:ghost_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+         {
+          "pokemon": "sableye dawnian",
+          "weight": 80.0,
+          "levelRange": "16-35",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "wendiglim",
+          "weight": 70.0,
+            "level": "39-58",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

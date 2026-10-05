@@ -1,0 +1,78 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.18, -0.42, 0],
+  "profileScale": 0.86,
+  "profileTranslation": [0, 0.46, 0],
+  "rootBone": "mudkip_dawnian",
+  "animations": {
+    "faint": "q.bedrock_primary('mudkip_dawnian', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('mudkip_dawnian', 'cry')",
+    "recoil": "q.bedrock_stateful('mudkip_dawnian', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "isTouchingWater": false,
+      "quirks": ["q.bedrock_quirk('mudkip_dawnian', 'blink')"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mudkip_dawnian', 'ground_idle')"]
+    },
+    "waterstanding": {
+      "poseTypes": ["STAND"],
+      "isTouchingWater": true,
+      "quirks": ["q.bedrock_quirk('mudkip_dawnian', 'blink')"],
+      "animations": ["q.bedrock('mudkip_dawnian', 'water_swim')"],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, -2, 0]
+        }
+      ]
+    },
+    "walk": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "quirks": ["q.bedrock_quirk('mudkip_dawnian', 'blink')"],
+      "animations": [
+        "q.bedrock('mudkip_dawnian', 'ground_walk')"
+      ]
+    },
+    "waterwalk": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": true,
+      "quirks": ["q.bedrock_quirk('mudkip_dawnian', 'blink')"],
+      "animations": ["q.bedrock('mudkip_dawnian', 'water_swim')"],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, -2, 0]
+        }
+      ]
+    },
+    "floating": {
+      "poseTypes": ["FLOAT"],
+      "transformTicks": 10,
+      "quirks": ["q.bedrock_quirk('mudkip_dawnian', 'blink')"],
+      "animations": ["q.bedrock('mudkip_dawnian', 'water_swim')"],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, -2, 0]
+        }
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "transformTicks": 10,
+      "quirks": ["q.bedrock_quirk('mudkip_dawnian', 'blink')"],
+      "animations": ["q.bedrock('mudkip_dawnian', 'water_swim')"],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, -2, 0]
+        }
+      ]
+    }
+  }
+}

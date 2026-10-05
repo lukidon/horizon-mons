@@ -1,0 +1,144 @@
+{
+    "pokemon.camerupt_dawnian.cry": {
+        "sounds": [
+            {
+              "name": "cobblemon:pokemon/camerupt/camerupt_dawnian_cry",
+              "volume": 0.5
+            }
+        ]
+    },
+    "pokemon.lameyser.cry": {
+        "sounds": [
+            {
+              "name": "cobblemon:pokemon/lameyser/lameyser_cry",
+              "volume": 0.5
+            }
+        ]
+    },
+    "pokemon.yamask_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/yamask/yamask_dawnian_cry"
+        ]
+    },
+    "pokemon.luderigus.cry": {
+        "sounds": [
+            "cobblemon:pokemon/luderigus/luderigus_cry"
+        ]
+    },
+    "pokemon.scameleon.cry": {
+        "sounds": [
+            {
+              "name": "cobblemon:pokemon/scameleon/scameleon_cry",
+              "volume": 0.5
+            }
+        ]
+    },
+    "pokemon.heracross_dawnian.cry": {
+        "sounds": [
+            {
+              "name": "cobblemon:pokemon/heracross/heracross_dawnian_cry",
+              "volume": 0.5
+            }
+        ]
+    },
+    "pokemon.queentana.cry": {
+        "sounds": [
+            "cobblemon:pokemon/queentana/queentana_cry"
+        ]
+    },
+    "pokemon.wendiglim.cry": {
+        "sounds": [
+            "cobblemon:pokemon/wendiglim/wendiglim_cry"
+        ]
+    },
+    "pokemon.falinks_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/falinks/falinks_dawnian_cry"
+        ]
+    },
+    "pokemon.ironexo.cry": {
+        "sounds": [
+            "cobblemon:pokemon/ironexo/ironexo_cry"
+        ]
+    },
+    "pokemon.lumberingdunce.cry": {
+        "sounds": [
+            "cobblemon:pokemon/lumberingdunce/lumberingdunce_cry"
+        ]
+    },
+    "pokemon.torchic_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/torchic/torchic_dawnian_cry"
+        ]
+    },
+    "pokemon.ameliven.cry": {
+        "sounds": [
+            "cobblemon:pokemon/ameliven/ameliven_cry"
+        ]
+    },
+    "pokemon.treecko_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/treecko/treecko_dawnian_cry"
+        ]
+    },
+    "pokemon.varunalas.cry": {
+        "sounds": [
+            "cobblemon:pokemon/varunalas/varunalas_cry"
+        ]
+    },
+    "pokemon.mudkip_dawnian.cry": {
+        "sounds": [
+            "cobblemon:pokemon/mudkip/mudkip_dawnian_cry"
+        ]
+    },
+    "pokemon.bogolotl.cry": {
+        "sounds": [
+            "cobblemon:pokemon/bogolotl/bogolotl_cry"
+        ]
+    },
+    "pokemon.lindcider.cry": {
+        "sounds": [
+            "cobblemon:pokemon/lindcider/lindcider_cry"
+        ]
+    },
+    "pokemon.dripplin.cry": {
+        "sounds": [
+            "cobblemon:pokemon/dripplin/dripplin_cry"
+        ]
+    },
+     "pokemon.aveeon.cry": {
+        "sounds": [
+            "cobblemon:pokemon/aveeon/aveeon_cry"
+        ]
+    },
+      "pokemon.papileon.cry": {
+        "sounds": [
+            "cobblemon:pokemon/papileon/papileon_cry"
+        ]
+    },
+     "pokemon.drimpact.cry": {
+        "sounds": [
+            "cobblemon:pokemon/drimpact/drimpact_cry"
+        ]
+    },
+    "pokemon.perakkii.cry": {
+        "sounds": [
+            "cobblemon:pokemon/perakkii/perakkii_cry"
+        ]
+    },
+    "pokemon.virosis.cry": {
+        "sounds": [
+            "cobblemon:pokemon/virosis/virosis_cry"
+        ]
+    },
+    "pokemon.permosion.cry": {
+        "sounds": [
+            "cobblemon:pokemon/permosion/permosion_cry"
+        ]
+    },
+    "pokemon.prionuclus.cry": {
+        "sounds": [
+            "cobblemon:pokemon/prionuclus/prionuclus_cry"
+        ]
+    }
+}

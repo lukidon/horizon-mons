@@ -1,0 +1,21 @@
+{
+    "target": "cobblemon:kecleon",
+    "evolutions": [
+        {
+            "id": "kecleon-scameleon",
+            "variant": "level_up",
+            "result": "scameleon",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+                "shadowswipe"
+            ],
+            "requirements": [
+        {
+          "move": "suckerpunch",
+          "variant": "has_move"
+        }
+      ],
+            "requiredContext": ""
+        }
+    ]
+}

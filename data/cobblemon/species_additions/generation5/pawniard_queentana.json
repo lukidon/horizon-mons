@@ -1,0 +1,25 @@
+{
+  "target": "cobblemon:pawniard",
+  "evolutions": [
+    {
+      "id": "pawniard_queentana",
+      "variant": "level_up",
+      "result": "queentana",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "matriarchcarve"
+      ],
+      "requirements": [
+         {
+          "variant": "level",
+          "minLevel": 52
+        },
+        {
+          "variant": "defeat",
+          "target": "kingambit",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

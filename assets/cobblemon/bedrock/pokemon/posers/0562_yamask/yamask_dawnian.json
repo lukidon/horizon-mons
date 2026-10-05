@@ -1,0 +1,51 @@
+{
+  "portraitScale": 2.50,
+  "portraitTranslation": [-0.15, -0.78, 0],
+  "profileScale": 0.70,
+  "profileTranslation": [0.00, 0.70, 0],
+  "rootBone": "yamask_dawnian",
+  "animations": {
+    "faint": "q.bedrock_primary('yamask_dawnian', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('yamask_dawnian', 'cry')"
+  },
+  "poses": {
+	"battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+		"q.look('head_ai')",
+        "q.bedrock('yamask_dawnian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('yamask_dawnian', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+	  "isBattle": false,
+      "animations": [
+		"q.look('head_ai')",
+        "q.bedrock('yamask_dawnian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('yamask_dawnian', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('yamask_dawnian', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('yamask_dawnian', 'sleep')"
+      ]
+	}
+  }
+ }

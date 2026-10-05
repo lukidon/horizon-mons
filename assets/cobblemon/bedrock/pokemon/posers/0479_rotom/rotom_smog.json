@@ -1,0 +1,125 @@
+{
+  "head": "head",
+  "portraitScale": 2.1,
+  "portraitTranslation": [
+    0,
+    -0.7,
+    0
+  ],
+  "profileScale": 0.7,
+  "profileTranslation": [
+    0,
+    0.9,
+    0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('rotom_smog', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND",
+        "WALK"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('rotom_smog', 'battle_idle')"
+      ],
+      "quirks": [
+        {
+          "name": "quirk",
+          "animations": [
+            "bedrock(rotom_smog, cry)"
+          ]
+        },
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(rotom_smog, blink)"
+          ]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "bedrock(rotom_smog, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "quirk",
+          "animations": [
+            "bedrock(rotom_smog, cry)"
+          ]
+        },
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(rotom_smog, blink)"
+          ]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "bedrock(rotom_smog, ground_walk)"
+      ]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": [
+        "HOVER"
+      ],
+      "animations": [
+        "look",
+        "bedrock(rotom_smog, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "quirk",
+          "animations": [
+            "bedrock(rotom_smog, cry)"
+          ]
+        },
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(rotom_smog, blink)"
+          ]
+        }
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [
+        "FLY"
+      ],
+      "animations": [
+        "look",
+        "bedrock(rotom_smog, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(rotom_smog, blink)"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "implemented": true,
+  "name": "Bogolotl",
+  "nationalPokedexNumber": 4003,
+  "primaryType": "grass",
+  "preEvolution": "marshtomp dawnian",
+  "abilities": [
+    "overgrow",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 130,
+    "defence": 83,
+    "special_attack": 78,
+    "special_defence": 83,
+    "speed": 56
+  },
+  "behaviour": {
+       "herd": {
+      "maxSize": 7,
+      "toleratedLeaders": [
+        {
+          "pokemon": "bogolotl alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false
+      },
+      "wanderChance": 1
+    }
+  },
+
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 268,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:lily_pad",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
+  "moves": [
+    "1:uproot",
+    "1:mudshot",
+    "1:hammerarm",
+    "1:bide",
+    "1:rototiller",
+    "1:bulkup",
+    "1:armthrust",
+    "1:leaftornado",
+    "1:foresight",
+    "1:growl",
+    "1:tackle",
+    "3:leafage",
+    "6:rocksmash",
+    "9:counter",
+    "12:protect",
+    "15:supersonic",
+    "20:seedbomb",
+    "25:brickbreak",
+    "30:takedown",
+    "35:amnesia",
+    "42:gigadrain",
+    "49:screech",
+    "56:endeavor",
+    "63:woodhammer",
+    "egg:bellydrum",
+    "egg:fakeout",
+    "egg:curse",
+    "egg:doubleedge",
+    "egg:mirrorcoat",
+    "egg:refresh",
+    "egg:yawn",
+    "egg:wideguard",
+    "tm:amnesia",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:confide",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:frenzyplant",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:megapunch",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:workup"
+  ],
+  "labels": [
+    "genhorizon"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "pokedex": [
+    "cobblemon.species.bogolotl.desc"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.8,
+    "height": 3.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 921,
+  "evolutions": []
+}

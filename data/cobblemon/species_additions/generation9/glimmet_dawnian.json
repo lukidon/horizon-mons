@@ -1,0 +1,144 @@
+{
+  "target": "cobblemon:glimmet",
+  "forms": [
+    {
+      "name": "Dawnian",
+      "primaryType": "poison",
+      "secondaryType": "flying",
+      "pokedex": [
+        "cobblemon.species.glimmet-dawnian.desc"
+      ],
+      "maleRatio": 0.5,
+      "height": 12,
+      "weight": 35,
+      "labels": [
+        "genhorizon",
+        "dawnian_form",
+        "generation9"
+      ],
+      "aspects": [
+        "dawnian"
+      ],
+      "abilities": [
+        "tintedlens",
+        "h:corrosion"
+      ],
+      "baseStats": {
+        "hp": 48,
+        "attack": 55,
+        "defence": 42,
+        "special_attack": 75,
+        "special_defence": 40,
+        "speed": 90
+      },
+       "behaviour": {
+        "herd": {
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "glimmet dawnian",
+          "tier": 1
+        },
+        {
+          "pokemon": "glimmora dawnian",
+          "tier": 2
+        }
+      ]
+    },
+                "moving": {
+                    "fly": {
+                        "canFly": true
+                    },
+                    "swim": {
+                        "avoidsWater": true
+                    },
+                    "canLook": false,
+                    "walk": {
+                        "canWalk": true
+                    }
+                }
+            },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:amethyst_shard",
+            "quantityRange": "0-1"
+          }
+        ]
+      },
+      "moves": [
+        "1:harden",
+        "1:gust",
+        "1:peck",
+        "7:acidspray",
+        "11:mirrormove",
+        "15:poisonpowder",
+        "18:ragepowder",
+        "22:venoshock",
+        "26:tailwind",
+        "29:selfdestruct",
+        "33:aircutter",
+        "37:airslash",
+        "41:acidarmor",
+        "46:sludgewave",
+        "egg:explosion",
+        "egg:memento",
+        "egg:toxic",
+        "tm:acidspray",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:attract",
+        "tm:confide",
+        "tm:confuseray",
+        "tm:dazzlinggleam",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:explosion",
+        "tm:facade",
+        "tm:fly",
+        "tm:gunkshot",
+        "tm:lightscreen",
+        "tm:mudshot",
+        "tm:powergem",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:round",
+        "tm:sandtomb",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snore",
+        "tm:spikes",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:tailwind",
+        "tm:terablast",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:venoshock"
+      ],
+      "evolutions": [
+        {
+          "id": "glimmet_gimmoradawnian",
+          "variant": "level_up",
+          "result": "glimmora dawnian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "mortalspin"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 35
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

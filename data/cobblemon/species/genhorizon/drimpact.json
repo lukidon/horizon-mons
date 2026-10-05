@@ -1,0 +1,208 @@
+{
+  "implemented": true,
+  "name": "Drimpact",
+  "nationalPokedexNumber": 4011,
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "preEvolution": "dwebble dawnian",
+  "labels": [
+    "genhorizon"
+  ],
+  "aspects": [
+    "dawnian",
+    "female"
+  ],
+  "abilities": [
+    "technician",
+    "shellarmor",
+    "h:ironfist"
+  ],
+  "baseStats": {
+    "hp": 66,
+    "attack": 105,
+    "defence": 72,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 107
+  },
+  "behaviour": {
+      "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "drimpact alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:dragonclaw",
+    "1:crabhammer",
+    "1:feintattack",
+    "1:furycutter",
+    "1:sandattack",
+    "4:withdraw",
+    "8:aquajet",
+    "12:bugbite",
+    "16:flail",
+    "20:slash",
+    "24:aquacutter",
+    "28:aquaring",
+    "32:scaleshot",
+    "36:xscissor",
+    "40:grudge",
+    "44:shellsmash",
+    "48:wavecrash",
+    "egg:block",
+    "egg:counter",
+    "egg:curse",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:watersport",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bugbite",
+    "tm:chillingwater",
+    "tm:confide",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:lunge",
+    "tm:muddywater",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:round",
+    "tm:scald",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarblade",
+    "tm:spikes",
+    "tm:strength",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:xscissor"
+  ],
+  "pokedex": [
+    "cobblemon.species.drimpact.desc"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 135,
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "drimpact",
+      "aspects": [
+        "male",
+        "dawnian"
+      ],
+      "abilities": [
+        "technician",
+        "shellarmor",
+        "h:sniper"
+      ]
+    }
+  ]
+}

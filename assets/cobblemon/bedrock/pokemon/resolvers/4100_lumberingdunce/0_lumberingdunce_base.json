@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:lumberingdunce",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lumberingdunce",
+      "model": "cobblemon:lumberingdunce.geo",
+      "texture": "cobblemon:textures/pokemon/4100_lumberingdunce/lumberingdunce.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4100_lumberingdunce/lumberingdunce_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4100_lumberingdunce/lumberingdunce_alpha.png",
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}

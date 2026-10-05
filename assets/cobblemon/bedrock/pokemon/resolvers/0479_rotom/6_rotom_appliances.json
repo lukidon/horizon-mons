@@ -1,0 +1,182 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 6,
+  "variations": [
+    {
+      "aspects": [
+        "smog-appliance"
+      ],
+      "poser": "cobblemon:rotom_smog",
+      "model": "cobblemon:rotom_smog.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/smog/rotom_smog.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/smog/rotom_smog_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jack-appliance"
+      ],
+      "poser": "cobblemon:rotom_jack",
+      "model": "cobblemon:rotom_jack.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/jack/rotom_jack.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/jack/rotom_jack_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vision-appliance"
+      ],
+      "poser": "cobblemon:rotom_vision",
+      "model": "cobblemon:rotom_vision.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/vision/rotom_vision.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/vision/rotom_vision_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sound-appliance"
+      ],
+      "poser": "cobblemon:rotom_sound",
+      "model": "cobblemon:rotom_sound.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/sound/rotom_sound.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/sound/rotom_sound_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "smog-appliance",
+        "shiny"
+      ],
+      "poser": "cobblemon:rotom_smog",
+      "model": "cobblemon:rotom_smog.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/smog/rotom_smog_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/smog/rotom_smog_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jack-appliance",
+        "shiny"
+      ],
+      "poser": "cobblemon:rotom_jack",
+      "model": "cobblemon:rotom_jack.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/jack/rotom_jack_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/jack/rotom_jack_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vision-appliance",
+        "shiny"
+      ],
+      "poser": "cobblemon:rotom_vision",
+      "model": "cobblemon:rotom_vision.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/vision/rotom_vision_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/vision/rotom_vision_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sound-appliance",
+        "shiny"
+      ],
+      "poser": "cobblemon:rotom_sound",
+      "model": "cobblemon:rotom_sound.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/sound/rotom_sound_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/sound/rotom_sound_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "smog-appliance",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/smog/rotom_smog_alpha.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jack-appliance",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/jack/rotom_jack_alpha.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vision-appliance",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/vision/rotom_vision_alpha.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sound-appliance",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0479_rotom/sound/rotom_sound_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

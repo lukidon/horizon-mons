@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:queentana",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:queentana",
+      "model": "cobblemon:queentana.geo",
+      "texture": "cobblemon:textures/pokemon/4007_queentana/queentana.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4007_queentana/queentana_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4007_queentana/queentana_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

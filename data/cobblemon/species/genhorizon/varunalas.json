@@ -1,0 +1,243 @@
+{
+  "implemented": true,
+  "name": "Varunalas",
+  "nationalPokedexNumber": 4001,
+  "primaryType": "fire",
+  "secondaryType": "ground",
+  "preEvolution": "grovyle dawnian",
+  "abilities": [
+    "blaze",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 125,
+    "defence": 100,
+    "special_attack": 66,
+    "special_defence": 84,
+    "speed": 60
+  },
+  "behaviour": {
+      "herd": {
+      "maxSize": 7,
+      "toleratedLeaders": [
+        {
+          "pokemon": "varunalas alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 268,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:red_sand",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
+  "moves": [
+    "1:vitrify",
+    "1:ember",
+    "1:agility",
+    "1:shedtail",
+    "1:stompingtantrum",
+    "1:flameburst",
+    "1:falseswipe",
+    "1:bulldoze",
+    "1:lavaplume",
+    "1:leer",
+    "1:tackle",
+    "3:sandattack",
+    "6:quickattack",
+    "9:flamecharge",
+    "12:detect",
+    "15:quickguard",
+    "20:assurance",
+    "25:firepunch",
+    "30:slam",
+    "35:doubleteam",
+    "42:screech",
+    "49:earthquake",
+    "56:flareblitz",
+    "egg:crushclaw",
+    "egg:doublekick",
+    "egg:dragonbreath",
+    "egg:smokescreen",
+    "egg:nightslash",
+    "egg:slash",
+    "egg:morningsun",
+    "egg:headsmash",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:attract",
+    "tm:blastburn",
+    "tm:blazekick",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:confide",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:vacuumwave",
+    "tm:willowisp",
+    "tm:workup"
+  ],
+  "labels": [
+    "genhorizon"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "pokedex": [
+    "cobblemon.species.varunalas.desc"
+  ],
+  "baseScale": 0.67,
+  "hitbox": {
+    "width": 2.6,
+    "height": 2,
+    "fixed": false
+  },
+   "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "50-70",
+          "JUMP": "30-40",
+          "SKILL": "30-60",
+          "SPEED": "30-40",
+          "STAMINA": "70-100"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      },
+      {
+        "locator": "seat_2"
+      }
+    ]
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 568,
+  "evolutions": []
+}

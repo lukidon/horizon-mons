@@ -1,0 +1,203 @@
+{
+    "target": "cobblemon:combusken",
+    "features": [
+        "dawnian"
+    ],
+    "forms": [
+        {
+            "name": "Dawnian",
+            "primaryType": "water",
+            "secondaryType": "psychic",
+            "maleRatio": 0.875,
+            "height": 9,
+            "weight": 195,
+            "pokedex": [
+                "cobblemon.species.combusken_dawnian.desc"
+            ],
+            "aspects": [
+                "dawnian"
+            ],
+            "labels": [
+                "genhorizon",
+                "dawnian_form",
+                "generation3"
+            ],
+            "abilities": [
+                "torrent",
+                "h:stakeout"
+            ],
+            "baseStats": {
+                "hp": 60,
+                "attack": 65,
+                "defence": 60,
+                "special_attack": 80,
+                "special_defence": 60,
+                "speed": 80
+            },
+            "drops": {
+                "amount": 2,
+                "entries": [
+                    {
+                        "item": "minecraft:amethyst_shard",
+                        "quantityRange": "0-1"
+                    }
+                ]
+            },
+            "moves": [
+                "1:psybeam",
+                "1:featherdance",
+                "1:bubblebeam",
+                "1:zenheadbutt",
+                "1:growl",
+                "1:mirrormove",
+                "1:peck",
+                "1:scratch",
+                "3:watergun",
+                "6:quickattack",
+                "9:aquajet",
+                "12:detect",
+                "15:mindreader",
+                "20:aircutter",
+                "25:slash",
+                "30:airslash",
+                "35:focusenergy",
+                "40:aquacutter",
+                "45:calmmind",
+                "50:storedpower",
+                "55:wavecrash",
+                "egg:mirrorcoat",
+                "egg:crushclaw",
+                "egg:feint",
+                "egg:lastresort",
+                "egg:psychocut",
+                "egg:smellingsalts",
+                "tm:agility",
+                "tm:aircutter",
+                "tm:airslash",
+                "tm:allyswitch",
+                "tm:attract",
+                "tm:batonpass",
+                "tm:blizzard",
+                "tm:bodyslam",
+                "tm:brine",
+                "tm:calmmind",
+                "tm:chillingwater",
+                "tm:confide",
+                "tm:curse",
+                "tm:cut",
+                "tm:dig",
+                "tm:dive",
+                "tm:doubleteam",
+                "tm:doubleedge",
+                "tm:echoedvoice",
+                "tm:endure",
+                "tm:facade",
+                "tm:featherdance",
+                "tm:fling",
+                "tm:flipturn",
+                "tm:focusenergy",
+                "tm:futuresight",
+                "tm:headbutt",
+                "tm:helpinghand",
+                "tm:honeclaws",
+                "tm:hydropump",
+                "tm:icebeam",
+                "tm:icespinner",
+                "tm:icywind",
+                "tm:lastresort",
+                "tm:liquidation",
+                "tm:megakick",
+                "tm:protect",
+                "tm:psybeam",
+                "tm:psychic",
+                "tm:psychicnoise",
+                "tm:psychicterrain",
+                "tm:psychocut",
+                "tm:psyshock",
+                "tm:raindance",
+                "tm:rest",
+                "tm:round",
+                "tm:scald",
+                "tm:shadowclaw",
+                "tm:sleeptalk",
+                "tm:snore",
+                "tm:storedpower",
+                "tm:substitute",
+                "tm:surf",
+                "tm:swagger",
+                "tm:swift",
+                "tm:swordsdance",
+                "tm:takedown",
+                "tm:telekinesis",
+                "tm:terablast",
+                "tm:trick",
+                "tm:trickroom",
+                "tm:tripleaxel",
+                "tm:uproar",
+                "tm:waterpledge",
+                "tm:waterpulse",
+                "tm:whirlpool",
+                "tm:workup",
+                "tm:zenheadbutt"
+            ],
+            "evolutions": [
+                {
+                    "id": "combusken_ameliven",
+                    "variant": "level_up",
+                    "result": "ameliven",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [
+                        "insight"
+                    ],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 36
+                        }
+                    ],
+                    "requiredContext": ""
+                }
+            ],
+            "battleOnly": false,
+            "behaviour": {
+  "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "combusken dawnian",
+          "tier": 1
+        },
+        {
+          "pokemon": "ameliven",
+          "tier": 2
+        }
+      ]
+    },
+                "resting": {
+                    "canSleep": false,
+                    "depth": "normal",
+                    "light": "0-4",
+                    "willSleepOnBed": false,
+                    "times": "night"
+                },
+                "moving": {
+                    "canLook": true,
+                    "walk": {
+                        "canWalk": true,
+                        "avoidsLand": false
+                    },
+                    "swim": {
+                        "swimSpeed": 0.3,
+                        "canSwimInWater": true,
+                        "canBreatheUnderwater": true
+                    },
+                    "fly": {
+                        "canFly": false,
+                        "flySpeedHorizontal": 0.3
+                    },
+                    "wanderChance": 1
+                }
+            }
+        }
+    ]
+}

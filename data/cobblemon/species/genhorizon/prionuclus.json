@@ -1,0 +1,202 @@
+{
+  "implemented": true,
+  "name": "prionuclus",
+  "nationalPokedexNumber": 4017,
+  "primaryType": "ice",
+  "secondaryType": "poison",
+  "abilities": [
+    "icebody",
+    "aftermath",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 50,
+    "defence": 75,
+    "special_attack": 120,
+    "special_defence": 75,
+    "speed": 80
+  },
+  "behaviour": {
+      "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "prionuclus alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "ice",
+        "quantityRange": "2-3",
+        "percentage": 100
+      }
+    ]
+  },
+  "moves": [
+    "1:hammerarm",
+    "1:icepunch",
+    "1:powdersnow",
+    "1:protect",
+    "1:poisongas",
+    "4:recover",
+    "8:endeavor",
+    "12:clearsmog",
+    "16:charm",
+    "20:freezedry",
+    "24:auroraveil",
+    "28:toxicspikes",
+    "35:painsplit",
+    "40:sludgebomb",
+    "48:haze",
+    "56:sheercold",
+    "64:snowscape",
+    "egg:healblock",
+    "egg:mist",
+    "egg:acidarmor",
+    "egg:astonish",
+    "egg:memento",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:snowscape",
+    "tm:taunt",
+    "tm:confuseray",
+    "tm:poisontail",
+    "tm:dreameater",
+    "tm:curse",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:surf",
+    "tm:sludgewave",
+    "tm:doubleedge",
+    "tm:facade",
+    "tm:lowsweep",
+    "tm:flash",
+    "tm:stomp",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:laserfocus",
+    "tm:skillswap",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:darkpulse",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:crunch",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:poisongas",
+    "tm:counter",
+    "tm:megakick",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:powerswap",
+    "tm:confusion",
+    "tm:protect",
+    "tm:blizzard",
+    "tm:poisontail",
+    "tm:iceshard",
+    "tm:icebeam",
+    "tm:mist",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:powergem",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:flashcannon",
+    "tm:sludgewave",
+    "tm:chillingwater",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:steelroller",
+    "tm:freezedry",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terablast",
+    "tm:bugbuzz",
+    "tm:bugbite",
+    "tm:pounce",
+    "tm:sleeptalk",
+    "tm:yawn",
+    "tm:rest"
+  ],
+  "labels": [
+    "genhorizon"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "pokedex": [
+    "cobblemon.species.prionuclus.desc"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.8,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 201,
+  "preEvolution": "permosion",
+  "evolutions": []
+}

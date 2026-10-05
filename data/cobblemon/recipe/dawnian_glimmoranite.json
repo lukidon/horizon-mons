@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "IMI",
+        " D "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "mega_showdown:mega_stone"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "!minecraft:jukebox_playable": {},
+            "minecraft:max_stack_size": 64,
+            "minecraft:custom_model_data": 6706,
+            "minecraft:rarity": "common",
+            "minecraft:item_name": "\"Dawnian Glimmoranite\"",
+            "minecraft:lore": [
+                "{\"color\":\"gray\",\"italic\":false,\"text\":\"Allows Dawnian Glimmora to Mega Evolve into Mega Dawnian Glimmora\"}"
+            ],
+            "mega_showdown:registry_type_component": "mega",
+            "mega_showdown:registry_location_component": "cobblemon:dawnian_glimmoranite"
+        }
+    }
+}

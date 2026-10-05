@@ -1,0 +1,20 @@
+{
+    "minecraft": {
+        "particle_apply": "minecraft:crit",
+        "particle_revert": "minecraft:end_rod",
+        "sound_apply": {
+            "sound_id": "minecraft:entity.player.attack.sweep"
+        },
+        "sound_revert": {
+            "sound_id": "minecraft:entity.iron_golem.repair"
+        },
+        "particle_apply_amplifier": 1,
+        "particle_revert_amplifier": 1,
+        "animations": {
+            "animations_apply": [],
+            "expressions_apply": [],
+            "animations_revert": [],
+            "expressions_revert": []
+        }
+    }
+}

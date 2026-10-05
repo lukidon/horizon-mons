@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "A",
+    "B"
+  ],
+  "key": {
+    "S": {
+            "item": "minecraft:sugar"
+        },
+    "A": {
+            "item": "minecraft:apple"
+        },
+    "B": {
+            "item": "minecraft:glass_bottle"
+        }
+  },
+ "result": {
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "!minecraft:jukebox_playable": {},
+            "minecraft:max_stack_size": 64,
+            "minecraft:custom_model_data": 6707,
+            "minecraft:rarity": "common",
+            "minecraft:item_name": "\"Applin Juice\"",
+            "minecraft:lore": [
+                "{\"color\":\"gray\",\"italic\":false,\"text\":\"Allows Dripplin to evolve into Lindcider\"}"
+            ],
+           "minecraft:custom_data": {
+        "applin_juice": true
+      }
+        }
+    }
+}

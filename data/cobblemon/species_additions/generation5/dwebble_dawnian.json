@@ -1,0 +1,301 @@
+{
+    "target": "cobblemon:dwebble",
+    "forms": [
+        {
+            "name": "Dawnian",
+            "primaryType": "bug",
+            "secondaryType": "water",
+            "maleRatio": 0.5,
+            "height": 3,
+            "weight": 145,
+            "aspects": [
+                "dawnian",
+                "female"
+            ],
+            "labels": [
+                "genhorizon",
+                "dawnian_form",
+                "generation5"
+            ],
+            "abilities": [
+                "technician",
+                "shellarmor",
+                "h:ironfist"
+            ],
+            "pokedex": [
+                "cobblemon.species.dwebble-dawnian.desc"
+            ],
+            "baseStats": {
+                "hp": 50,
+                "attack": 85,
+                "defence": 35,
+                "special_attack": 35,
+                "special_defence": 65,
+                "speed": 55
+            },
+            "drops": {
+                "amount": 2,
+                "entries": [
+                    {
+                        "item": "minecraft:bone",
+                        "quantityRange": "0-1"
+                    }
+                ]
+            },
+            "moves": [
+                "1:feintattack",
+                "1:furycutter",
+                "1:sandattack",
+                "4:withdraw",
+                "8:aquajet",
+                "12:bugbite",
+                "16:flail",
+                "20:slash",
+                "24:aquacutter",
+                "28:aquaring",
+                "32:scaleshot",
+                "36:xscissor",
+                "40:grudge",
+                "44:shellsmash",
+                "48:wavecrash",
+                "egg:block",
+                "egg:counter",
+                "egg:curse",
+                "egg:knockoff",
+                "egg:nightslash",
+                "egg:watersport",
+                "egg:wideguard",
+                "tm:aerialace",
+                "tm:attract",
+                "tm:bugbite",
+                "tm:chillingwater",
+                "tm:confide",
+                "tm:curse",
+                "tm:cut",
+                "tm:dig",
+                "tm:dive",
+                "tm:doubleteam",
+                "tm:endure",
+                "tm:facade",
+                "tm:furycutter",
+                "tm:honeclaws",
+                "tm:hydropump",
+                "tm:irondefense",
+                "tm:knockoff",
+                "tm:liquidation",
+                "tm:muddywater",
+                "tm:naturepower",
+                "tm:poisonjab",
+                "tm:protect",
+                "tm:raindance",
+                "tm:razorshell",
+                "tm:rest",
+                "tm:rocksmash",
+                "tm:round",
+                "tm:scald",
+                "tm:shadowclaw",
+                "tm:skittersmack",
+                "tm:sleeptalk",
+                "tm:solarblade",
+                "tm:spikes",
+                "tm:strength",
+                "tm:strugglebug",
+                "tm:substitute",
+                "tm:surf",
+                "tm:swordsdance",
+                "tm:terablast",
+                "tm:waterpulse",
+                "tm:waterfall",
+                "tm:xscissor"
+            ],
+            "evolutions": [
+                {
+                    "id": "dwebble_drimpact",
+                    "variant": "item_interact",
+                    "result": "drimpact",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [
+                        "dragonclaw"
+                    ],
+                    "requirements": [],
+                    "requiredContext": "cobblemon:dragon_scale"
+                }
+            ],
+            "battleOnly": false,
+            "behaviour": {
+                "herd": {
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "dwebble dawnian alpha",
+          "tier": 1
+        },
+         {
+          "pokemon": "drimpact",
+          "tier": 2
+        }
+      ]
+    },
+                "resting": {
+                    "canSleep": false,
+                    "depth": "normal",
+                    "light": "0-4",
+                    "willSleepOnBed": false,
+                    "times": "night"
+                },
+                "moving": {
+                    "canLook": true,
+                    "walk": {
+                        "canWalk": true,
+                        "avoidsLand": false
+                    },
+                    "swim": {
+                        "swimSpeed": 0.3,
+                        "canSwimInWater": true,
+                        "canBreatheUnderwater": true
+                    },
+                    "fly": {
+                        "canFly": false,
+                        "flySpeedHorizontal": 0.3
+                    },
+                    "wanderChance": 1
+                }
+            }
+        },
+        {
+            "name": "Dawnian",
+            "primaryType": "bug",
+            "secondaryType": "water",
+            "maleRatio": 0.5,
+            "height": 3,
+            "weight": 145,
+            "aspects": [
+                "dawnian",
+                "male"
+            ],
+            "abilities": [
+                "technician",
+                "shellarmor",
+                "h:sniper"
+            ],
+            "pokedex": [
+                "cobblemon.species.dwebble-dawnian.desc"
+            ],
+            "baseStats": {
+                "hp": 50,
+                "attack": 85,
+                "defence": 35,
+                "special_attack": 35,
+                "special_defence": 65,
+                "speed": 55
+            },
+            "moves": [
+                 "1:feintattack",
+                "1:furycutter",
+                "1:sandattack",
+                "4:withdraw",
+                "8:aquajet",
+                "12:bugbite",
+                "16:flail",
+                "20:slash",
+                "24:aquacutter",
+                "28:aquaring",
+                "32:scaleshot",
+                "36:xscissor",
+                "40:grudge",
+                "44:shellsmash",
+                "48:wavecrash",
+                "egg:block",
+                "egg:counter",
+                "egg:curse",
+                "egg:knockoff",
+                "egg:nightslash",
+                "egg:watersport",
+                "egg:wideguard",
+                "tm:aerialace",
+                "tm:attract",
+                "tm:bugbite",
+                "tm:chillingwater",
+                "tm:confide",
+                "tm:curse",
+                "tm:cut",
+                "tm:dig",
+                "tm:dive",
+                "tm:doubleteam",
+                "tm:endure",
+                "tm:facade",
+                "tm:furycutter",
+                "tm:honeclaws",
+                "tm:hydropump",
+                "tm:irondefense",
+                "tm:knockoff",
+                "tm:liquidation",
+                "tm:muddywater",
+                "tm:naturepower",
+                "tm:poisonjab",
+                "tm:protect",
+                "tm:raindance",
+                "tm:razorshell",
+                "tm:rest",
+                "tm:rocksmash",
+                "tm:round",
+                "tm:scald",
+                "tm:shadowclaw",
+                "tm:skittersmack",
+                "tm:sleeptalk",
+                "tm:snore",
+                "tm:solarblade",
+                "tm:spikes",
+                "tm:strength",
+                "tm:strugglebug",
+                "tm:substitute",
+                "tm:surf",
+                "tm:swordsdance",
+                "tm:terablast",
+                "tm:waterpulse",
+                "tm:waterfall",
+                "tm:xscissor"
+            ],
+            "evolutions": [
+                {
+                    "id": "dwebble_drimpact",
+                    "variant": "item_interact",
+                    "result": "drimpact",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [
+                        "dragonclaw"
+                    ],
+                    "requirements": [],
+                    "requiredContext": "cobblemon:dragon_scale"
+                }
+            ],
+            "battleOnly": false,
+            "behaviour": {
+                "resting": {
+                    "canSleep": false,
+                    "depth": "normal",
+                    "light": "0-4",
+                    "willSleepOnBed": false,
+                    "times": "night"
+                },
+                "moving": {
+                    "canLook": true,
+                    "walk": {
+                        "canWalk": true,
+                        "avoidsLand": false
+                    },
+                    "swim": {
+                        "swimSpeed": 0.3,
+                        "canSwimInWater": true,
+                        "canBreatheUnderwater": true
+                    },
+                    "fly": {
+                        "canFly": false,
+                        "flySpeedHorizontal": 0.3
+                    },
+                    "wanderChance": 1
+                }
+            }
+        }
+    ]
+}

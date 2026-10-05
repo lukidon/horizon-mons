@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:mudkip-dawnian",
+    "speciesId": "cobblemon:mudkip",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Dawnian",
+            "unlockForms": [
+                "Dawnian"
+            ]
+        }
+    ],
+    "variations": []
+}

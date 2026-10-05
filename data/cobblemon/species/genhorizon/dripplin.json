@@ -1,0 +1,178 @@
+{
+         "behaviour": {
+    "resting": {
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "dripplin alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "lindcider alpha",
+          "tier": 1
+        }
+      ]
+    }
+  },
+        "baseExperienceYield": 0,
+        "primaryType": "water",
+        "baseScale": 0.5,
+        "preEvolution": "applin",
+        "drops": {
+                "amount": "1",
+                "entries": [
+                        {
+                                "item": "minecraft:apple",
+                                "quantityRange": "1-2",
+                                "percentage": 50
+                        }
+                ]
+        },
+        "shoulderMountable": true,
+        "maleRatio": 0.5,
+        "abilities": [
+                "juicedup",
+                "gluttony",
+                "h:sapsipper"
+        ],
+        "catchRate": 45,
+        "evYield": {
+                "hp": 0,
+                "attack": 1,
+                "defence": 1,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 0
+        },
+        "forms": [],
+        "eggCycles": 20,
+        "baseStats": {
+                "hp": 90,
+                "attack": 95,
+                "defence": 110,
+                "special_attack": 80,
+                "special_defence": 70,
+                "speed": 40
+        },
+        "name": "Dripplin",
+        "weight": 44,
+        "eggGroups": [
+                "water_1",
+                "dragon"
+        ],
+        "baseFriendship": 0,
+        "height": 4,
+        "cannotDynamax": false,
+        "labels": [
+                "genhorizon"
+        ],
+        "aspects": [
+                "dawnian"
+        ],
+        "secondaryType": "dragon",
+        "nationalPokedexNumber": 4009,
+        "implemented": true,
+        "experienceGroup": "erratic",
+        "moves": [
+                "1:stickyshot",
+                "1:infestation",
+                "1:withdraw",
+                "1:sweetscent",
+                "1:recycle",
+                "1:astonish",
+                "4:dragontail",
+                "8:growth",
+                "12:dragonbreath",
+                "16:protect",
+                "20:aquajet",
+                "28:waterpulse",
+                "32:dragonpulse",
+                "36:recover",
+                "40:liquidation",
+                "44:substitute",
+                "egg:defensecurl",
+                "egg:recycle",
+                "egg:rollout",
+                "egg:suckerpunch",
+                "tm:aquatail",
+                "tm:attract",
+                "tm:bugbite",
+                "tm:chillingwater",
+                "tm:confide",
+                "tm:dive",
+                "tm:doubleteam",
+                "tm:dracometeor",
+                "tm:dragoncheer",
+                "tm:dragondance",
+                "tm:dragonpulse",
+                "tm:dragontail",
+                "tm:endure",
+                "tm:facade",
+                "tm:flipturn",
+                "tm:gigaimpact",
+                "tm:gyroball",
+                "tm:hydropump",
+                "tm:hyperbeam",
+                "tm:infestation",
+                "tm:liquidation",
+                "tm:muddywater",
+                "tm:outrage",
+                "tm:pounce",
+                "tm:protect",
+                "tm:raindance",
+                "tm:recycle",
+                "tm:reflect",
+                "tm:rest",
+                "tm:rollout",
+                "tm:round",
+                "tm:sleeptalk",
+                "tm:snore",
+                "tm:substitute",
+                "tm:suckerpunch",
+                "tm:sunnyday",
+                "tm:surf",
+                "tm:takedown",
+                "tm:terablast",
+                "tm:waterpulse",
+                "tm:waterfall",
+                "tm:whirlpool"
+        ],
+        "pokedex": [
+                "cobblemon.species.dripplin.desc"
+        ],
+        "hitbox": {
+                "width": 0.5,
+                "height": 0.5,
+                "fixed": false
+        },
+        "evolutions": [
+                {
+                        "variant": "level_up",
+                        "result": "lindcider",
+                        "consumeHeldItem": false,
+                        "learnableMoves": [
+                                "fermentroll"
+                        ],
+                        "requirements": [
+        {
+          "move": "dragoncheer",
+          "variant": "has_move"
+        }
+      ],
+                        "id": "dripplin_lindcider"
+                }
+        ]
+}

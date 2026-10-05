@@ -1,0 +1,48 @@
+{
+  "species": "cobblemon:permosion",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:permosion",
+      "model": "cobblemon:permosion.geo",
+      "texture": "cobblemon:textures/pokemon/4016_permosion/permosion.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobblemon:textures/pokemon/4016_permosion/permosion_opacity.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:permosion",
+      "model": "cobblemon:permosion.geo",
+      "texture": "cobblemon:textures/pokemon/4016_permosion/permosion_shiny.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobblemon:textures/pokemon/4016_permosion/permosion_opacity_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4016_permosion/permosion_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "entryId": "cobblemon:rotom",
+    "forms": [
+        {
+            "displayForm": "Smog",
+            "unlockForms": [
+                "Smog"
+            ]
+        },
+        {
+            "displayForm": "Jack",
+            "unlockForms": [
+                "Jack"
+            ]
+        },
+        {
+            "displayForm": "Sound",
+            "unlockForms": [
+                "Sound"
+            ]
+        },
+        {
+            "displayForm": "Vision",
+            "unlockForms": [
+                "Vision"
+            ]
+        }
+    ]
+}

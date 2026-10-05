@@ -1,0 +1,54 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.3, 3.2, 0],
+ "profileScale": 0.4,
+  "profileTranslation": [0, 1.2, 0],
+  "animations": {
+    "recoil": "q.bedrock_stateful('ameliven', 'recoil')",
+    "cry": "q.bedrock_stateful('ameliven', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('ameliven', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('ameliven', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ameliven', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ameliven', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('ameliven', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('ameliven', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('ameliven', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('ameliven', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ameliven', 'sleep')"]
+    }
+  }
+ }

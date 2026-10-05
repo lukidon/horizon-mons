@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:sableye-dawnian",
+    "speciesId": "cobblemon:sableye",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Dawnian",
+            "unlockForms": [
+                "Dawnian"
+            ]
+        }
+    ],
+    "variations": []
+}

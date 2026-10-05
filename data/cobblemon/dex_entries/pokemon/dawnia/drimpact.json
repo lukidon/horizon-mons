@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:drimpact",
+    "speciesId": "cobblemon:drimpact",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

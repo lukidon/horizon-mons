@@ -1,0 +1,39 @@
+{
+  "portraitScale": 1.32,
+  "portraitTranslation": [-0.12,-0.09,0],
+  "profileScale": 0.70,
+  "profileTranslation": [0,0.51,0],
+  "rootBone": "virosis",
+  "animations": {
+    "cry": "q.bedrock_stateful('virosis', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "HOVER",
+        "PORTRAIT",
+        "NONE"
+      ],
+      "animations": [
+        "q.look('inner_body')",
+        "q.bedrock('virosis', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('virosis', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('virosis', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('virosis', 'blink')"
+      ]
+    }
+  }
+}

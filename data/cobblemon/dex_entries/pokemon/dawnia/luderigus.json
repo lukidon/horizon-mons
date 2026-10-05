@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:luderigus",
+    "speciesId": "cobblemon:luderigus",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

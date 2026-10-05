@@ -1,0 +1,39 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "heracross-dawnian-alpha-1",
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "23-100",
+      "weight": 50.0,
+      "condition": {
+                "biomes": [
+                    "#cobblemon:is_cave"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "heracross dawnian held_item=cobblemon:bug_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "heracross dawnian",
+          "weight": 80.0,
+          "levelRange": "28-47",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

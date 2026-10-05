@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:varunalas",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:varunalas",
+      "model": "cobblemon:varunalas.geo",
+      "texture": "cobblemon:textures/pokemon/4001_varunalas/varunalas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/4001_varunalas/varunalas_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/4001_varunalas/varunalas_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/4001_varunalas/varunalas_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["alpha_eyes"],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4001_varunalas/varunalas_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

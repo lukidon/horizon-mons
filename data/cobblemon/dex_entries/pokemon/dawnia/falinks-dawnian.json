@@ -1,0 +1,23 @@
+{
+    "id": "cobblemon:falinks-dawnian",
+    "speciesId": "cobblemon:falinks",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Dawnian-Defensive",
+            "unlockForms": [
+                "Dawnian-Defensive",
+                "Dawnian-Offensive"
+            ]
+        },
+        {
+            "displayForm": "Dawnian-Offensive",
+            "unlockForms": [
+                "Dawnian-Defensive",
+                "Dawnian-Offensive"
+            ]
+        }
+    ],
+    "variations": []
+}

@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:treecko-dawnian",
+    "speciesId": "cobblemon:treecko",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Dawnian",
+            "unlockForms": [
+                "Dawnian"
+            ]
+        }
+    ],
+    "variations": []
+}

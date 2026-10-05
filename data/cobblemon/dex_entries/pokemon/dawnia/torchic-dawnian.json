@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:torchic-dawnian",
+    "speciesId": "cobblemon:torchic",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Dawnian",
+            "unlockForms": [
+                "Dawnian"
+            ]
+        }
+    ],
+    "variations": []
+}

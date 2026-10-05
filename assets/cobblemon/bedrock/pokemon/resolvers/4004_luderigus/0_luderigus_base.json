@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:luderigus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:luderigus",
+      "model": "cobblemon:luderigus.geo",
+      "texture": "cobblemon:textures/pokemon/4004_luderigus/luderigus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4004_luderigus/luderigus_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4004_luderigus/luderigus_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

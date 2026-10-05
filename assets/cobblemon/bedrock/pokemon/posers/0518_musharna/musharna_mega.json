@@ -1,0 +1,108 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [-0.28, 0.6, 0],
+  "profileScale": 0.35,
+  "profileTranslation": [0, 1.1, 0],
+  "rootBone": "musharna_mega",
+  "animations": {
+    "cry": "q.bedrock_stateful('musharna_mega', 'cry')"
+  },
+  "poses": {
+    "mount-hover": {
+      "poseTypes": ["STAND", "HOVER"],
+      "isBattle": false,
+      "condition": "q.has_entity ? q.is_ridden && q.riding_style == 'AIR' : 0.0",
+      "transformTicks": 5,
+      "isRideStyle": ["AIR"],
+      "animations": [
+        "q.bedrock('musharna_mega', 'air_idle')",
+        "q.bedrock('musharna_mega', 'empty_ride')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('musharna_mega', 'blink')"
+      ]
+    },
+    "mount-fly": {
+      "isBattle": false,
+      "condition": "q.has_entity ? q.is_ridden && q.riding_style == 'AIR' : 0.0",
+      "poseTypes": ["WALK", "FLY"],
+      "animations": [
+        "q.bedrock('musharna_mega', 'air_fly')",
+        "q.bedrock('musharna_mega', 'empty_ride')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('musharna_mega', 'blink')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('musharna_mega', 'ground_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('musharna_mega', 'blink')"
+      ]
+    },
+    "walk": {
+      "poseTypes": ["WALK"],
+      "condition": "!q.in_air && !q.is_sprinting && q.riding_style != 'AIR': 1.0 ? 0.0",
+      "animations": [
+        "q.bedrock('musharna_mega', 'ground_walk')",
+        {
+          "condition": "q.is_ridden && q.riding_style == 'LAND'",
+          "animation": "q.bedrock('musharna_mega', 'empty_ride')"
+        }
+      ],
+      "transformTicks": 5,
+      "quirks": [
+        "q.bedrock_quirk('musharna_mega', 'blink')"
+      ]
+    },
+    "run": {
+      "poseTypes": ["STAND","WALK"],
+      "isBattle": false,
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.bedrock('musharna_mega', 'ground_walk')",
+      {
+        "condition": "q.is_ridden",
+        "animation": "q.bedrock('musharna_mega', 'empty_ride')"
+      }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('musharna_mega', 'blink')"
+      ],
+      "transformTicks": 10
+    },
+    "in-air": {
+      "poseTypes": ["STAND", "WALK", "NONE"],
+      "isBattle": false,
+      "condition": "q.in_air && q.is_ridden",
+      "animations": ["q.look('head')", "q.bedrock('musharna_mega', 'ride_jump')"],
+      "transformTicks": 2,
+      "transformToTicks": 2
+    },
+    "hover": {
+      "isBattle": false,
+      "poseTypes": ["HOVER", "FLOAT"],
+      "animations": [
+        "q.bedrock('musharna_mega', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('musharna_mega', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": [
+        "q.bedrock('musharna_mega', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('musharna_mega', 'blink')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "species": "cobblemon:drimpact",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["female"],
+      "poser": "cobblemon:drimpact",
+      "model": "cobblemon:drimpact_female.geo",
+      "texture": "cobblemon:textures/pokemon/4011_drimpact/drimpact_female.png",
+      "layers": []
+    },
+    {
+      "aspects": ["female", "shiny"],
+      "texture": "cobblemon:textures/pokemon/4011_drimpact/drimpact_female_shiny.png"
+    },
+    {
+      "aspects": ["female", "alpha_eyes"],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4011_drimpact/drimpact_female_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

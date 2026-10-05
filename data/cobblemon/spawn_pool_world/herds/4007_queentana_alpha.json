@@ -1,0 +1,90 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "queentana-alpha-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 6,
+      "levelRange": "9-55",
+      "weight": 99.5,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "queentana held_item=cobblemon:fairy_gem alpha=true",
+          "weight": 80.0,
+          "levelRange": "40-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "pawniard",
+          "weight": 19.0,
+          "levelRange": "54-54",
+          "levelRangeOffset": "-2-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+     {
+      "id": "queentana-alpha-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 6,
+      "levelRange": "9-55",
+      "weight": 99.5,
+       "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_river"
+                ],
+                "isPokeSnack": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "queentana held_item=cobblemon:fairy_gem alpha=true",
+          "weight": 80.0,
+          "levelRange": "40-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "pawniard",
+          "weight": 19.0,
+          "levelRange": "54-54",
+          "levelRangeOffset": "-2-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

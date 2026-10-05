@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:scameleon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:scameleon",
+      "model": "cobblemon:scameleon.geo",
+      "texture": "cobblemon:textures/pokemon/4006_scameleon/scameleon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4006_scameleon/scameleon_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4006_scameleon/scameleon_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

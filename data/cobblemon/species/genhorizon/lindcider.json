@@ -1,0 +1,189 @@
+{
+  "implemented": true,
+  "name": "Lindcider",
+  "nationalPokedexNumber": 4010,
+  "primaryType": "poison",
+  "secondaryType": "dragon",
+  "preEvolution": "dripplin",
+  "abilities": [
+    "juicedup",
+    "gluttony",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 106,
+    "attack": 120,
+    "defence": 80,
+    "special_attack": 80,
+    "special_defence": 110,
+    "speed": 44
+  },
+  "behaviour": {
+        "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "lindcider alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+
+  "catchRate": 10,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "erratic",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:apple",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:fermentroll",
+    "1:stickyshot",
+    "1:infestation",
+    "1:withdraw",
+    "1:sweetscent",
+    "1:recycle",
+    "1:astonish",
+    "4:dragontail",
+    "8:growth",
+    "12:dragonbreath",
+    "16:protect",
+    "20:aquajet",
+    "28:waterpulse",
+    "32:dragonpulse",
+    "36:recover",
+    "40:liquidation",
+    "44:substitute",
+    "54:wavecrash",
+    "egg:defensecurl",
+    "egg:recycle",
+    "egg:rollout",
+    "egg:suckerpunch",
+    "tm:aquatail",
+    "tm:attract",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bugbite",
+    "tm:chillingwater",
+    "tm:confide",
+    "tm:curse",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icespinner",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snore",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:whirlpool"
+  ],
+  "labels": [
+    "genhorizon"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "pokedex": [
+    "cobblemon.species.lindcider.desc"
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1.5,
+    "height": 1.2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 110,
+  "evolutions": []
+}

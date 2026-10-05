@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:dwebble-dawnian",
+    "speciesId": "cobblemon:dwebble",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Dawnian",
+            "unlockForms": [
+                "Dawnian"
+            ]
+        }
+    ],
+    "variations": []
+}

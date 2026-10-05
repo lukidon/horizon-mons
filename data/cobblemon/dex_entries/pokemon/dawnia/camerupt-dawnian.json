@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:camerupt-dawnian",
+    "speciesId": "cobblemon:camerupt",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Dawnian",
+            "unlockForms": [
+                "Dawnian"
+            ]
+        }
+    ],
+    "variations": []
+}

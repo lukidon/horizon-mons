@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:eevee",
+    "evolutions": [
+        {
+            "id": "eevee-aveeon-level_up",
+            "variant": "level_up",
+            "result": "aveeon",
+            "requirements": [
+                {
+                    "variant": "party_member",
+                    "target": "altaria"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,231 @@
+{
+        "target": "cobblemon:camerupt",
+        "features": [
+                "dawnian"
+        ],
+         "behaviour": {
+                "herd": {
+      "maxSize": 9,
+      "toleratedLeaders": [
+        {
+          "pokemon": "camerupt dawnian",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true,
+      "willDefendSelf": true,
+      "willFlee": false
+    },
+    "fireImmune": true,
+    
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": true
+      }
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  },
+        "forms": [
+                {
+                        "name": "Dawnian",
+                        "primaryType": "fire",
+                        "secondaryType": "water",
+                        "pokedex": [
+                                "cobblemon.species.camerupt-dawnian.desc"
+                        ],
+                        "aspects": [
+                                "dawnian"
+                        ],
+                        "labels": [
+                                "genhorizon",
+                                "dawnian_form",
+                                "generation3"
+                        ],
+                        "abilities": [
+                                "whitesmoke",
+                                "waterabsorb",
+                                "h:healer"
+                        ],
+                        "baseStats": {
+                                "hp": 80,
+                                "attack": 90,
+                                "defence": 65,
+                                "special_attack": 105,
+                                "special_defence": 75,
+                                "speed": 45
+                        },
+                        "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "45-60",
+              "JUMP": "10-25",
+              "SKILL": "10-30",
+              "SPEED": "25-35",
+              "STAMINA": "50-80"
+            }
+          }
+        },
+        "seats": [
+          {
+            "locator": "seat_1"
+          },
+          {
+            "locator": "seat_2"
+          },
+          {
+            "locator": "seat_3"
+          },
+          {
+            "locator": "seat_4"
+          },
+          {
+            "locator": "seat_5"
+          },
+          {
+            "locator": "seat_6"
+          }
+        ]
+      },
+                        "drops": {
+                                "amount": 1,
+                                "entries": []
+                        },
+                        "moves": [
+                                "1:fissure",
+                                "1:waterspout",
+                                "1:growl",
+                                "1:bubble",
+                                "1:tackle",
+                                "5:ember",
+                                "8:focusenergy",
+                                "12:bubblebeam",
+                                "15:flameburst",
+                                "19:amnesia",
+                                "22:lavaplume",
+                                "26:scald",
+                                "29:curse",
+                                "31:takedown",
+                                "40:hydropump",
+                                "43:flamethrower",
+                                "47:doubleedge",
+                                "egg:lifedew",
+                                "egg:stomp",
+                                "egg:defensecurl",
+                                "egg:yawn",
+                                "egg:spitup",
+                                "egg:swallow",
+                                "egg:stockpile",
+                                "tm:afteryou",
+                                "tm:amnesia",
+                                "tm:attract",
+                                "tm:bodypress",
+                                "tm:bodyslam",
+                                "tm:charm",
+                                "tm:confide",
+                                "tm:curse",
+                                "tm:doubleteam",
+                                "tm:doubleedge",
+                                "tm:echoedvoice",
+                                "tm:endeavor",
+                                "tm:endure",
+                                "tm:facade",
+                                "tm:fireblast",
+                                "tm:firespin",
+                                "tm:flamecharge",
+                                "tm:flamethrower",
+                                "tm:flareblitz",
+                                "tm:flashcannon",
+                                "tm:gigaimpact",
+                                "tm:headbutt",
+                                "tm:heatcrash",
+                                "tm:heatwave",
+                                "tm:helpinghand",
+                                "tm:highhorsepower",
+                                "tm:hydropump",
+                                "tm:hyperbeam",
+                                "tm:incinerate",
+                                "tm:ironhead",
+                                "tm:liquidation",
+                                "tm:muddywater",
+                                "tm:mysticalfire",
+                                "tm:naturepower",
+                                "tm:overheat",
+                                "tm:powergem",
+                                "tm:protect",
+                                "tm:raindance",
+                                "tm:rest",
+                                "tm:roar",
+                                "tm:rockslide",
+                                "tm:rocksmash",
+                                "tm:rocktomb",
+                                "tm:rollout",
+                                "tm:round",
+                                "tm:scald",
+                                "tm:scorchingsands",
+                                "tm:sleeptalk",
+                                "tm:snore",
+                                "tm:solarbeam",
+                                "tm:stealthrock",
+                                "tm:stompingtantrum",
+                                "tm:stoneedge",
+                                "tm:strength",
+                                "tm:substitute",
+                                "tm:sunnyday",
+                                "tm:surf",
+                                "tm:takedown",
+                                "tm:terablast",
+                                "tm:trailblaze",
+                                "tm:waterpulse",
+                                "tm:waterfall",
+                                "tm:willowisp",
+                                "tm:zenheadbutt"
+                        ],
+                        "baseScale": 1,
+                        "hitbox": {
+                                "width": 1,
+                                "height": 1,
+                                "fixed": false
+                        },
+                        "baseFriendship": 50,
+                        "evYield": {
+                                "hp": 0,
+                                "attack": 0,
+                                "defence": 0,
+                                "special_attack": 1,
+                                "special_defence": 0,
+                                "speed": 0
+                        },
+                        "height": 2,
+                        "weight": 62,
+                        "preEvolution": "numel",
+                        "evolutions": [
+                                {
+                                        "id": "camerupt-lameyser",
+                                        "variant": "level_up",
+                                        "result": "lameyser",
+                                        "consumeHeldItem": false,
+                                        "learnableMoves": [
+                                                "slackoff"
+                                        ],
+                                        "requirements": [
+                                                {
+                                                        "variant": "held_item",
+                                                        "minLevel": 45,
+                                                        "itemCondition": "cobblemon:mystic_water"
+                                                }
+                                        ],
+                                        "requiredContext": "cobblemon:mystic_water"
+                                }
+                        ]
+                }
+        ]
+}

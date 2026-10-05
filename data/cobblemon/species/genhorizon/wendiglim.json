@@ -1,0 +1,264 @@
+{
+    "implemented": true,
+    "name": "Wendiglim",
+    "nationalPokedexNumber": 4008,
+    "primaryType": "ghost",
+    "secondaryType": "rock",
+    "abilities": [
+        "keeneye",
+        "toughclaws",
+        "h:rockhead"
+    ],
+    "baseStats": {
+        "hp": 105,
+        "attack": 130,
+        "defence": 112,
+        "special_attack": 50,
+        "special_defence": 68,
+        "speed": 40
+    },
+    "behaviour": {
+            "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "wendiglim alpha",
+          "tier": 1
+        }
+      ]
+    },
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "4-15",
+            "willSleepOnBed": false,
+            "times": "day"
+        },
+        "moving": {
+            "canLook": true,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.3,
+                "canSwimInWater": false,
+                "canBreatheUnderwater": false
+            },
+            "fly": {
+                "canFly": false,
+                "flySpeedHorizontal": 0.3
+            }
+        }
+    },
+
+    "catchRate": 90,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 173,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 25,
+    "eggGroups": [
+        "human_like"
+    ],
+    "drops": {
+        "amount": 1,
+        "entries": [
+            {
+                "item": "minecraft:amethyst_shard",
+                "quantityRange": "1-2",
+                "percentage": 100
+            },
+            {
+                "item": "minecraft:diamond",
+                "quantityRange": "1-1",
+                "percentage": 5
+            },
+            {
+                "item": "minecraft:emerald",
+                "quantityRange": "1-1",
+                "percentage": 5
+            },
+            {
+                "item": "cobblemon:roseli_berry",
+                "quantityRange": "1-1",
+                "percentage": 5
+            }
+        ]
+    },
+    "moves": [
+        "1:feralinstinct",
+        "1:rockthrow",
+        "1:foresight",
+        "1:leer",
+        "1:scratch",
+        "3:astonish",
+        "9:shadowsneak",
+        "12:fakeout",
+        "15:disable",
+        "18:detect",
+        "21:nightshade",
+        "24:furyswipes",
+        "27:rocktomb",
+        "30:quash",
+        "33:shadowclaw",
+        "36:meanlook",
+        "39:powergem",
+        "42:zenheadbutt",
+        "45:shadowball",
+        "48:headsmash",
+        "egg:captivate",
+        "egg:feint",
+        "egg:flatter",
+        "egg:meanlook",
+        "egg:metalburst",
+        "egg:moonlight",
+        "egg:rockblast",
+        "egg:recover",
+        "egg:accelerock",
+        "egg:wideguard",
+        "tm:aerialace",
+        "tm:allyswitch",
+        "tm:ancientpower",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulkup",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:confide",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:drainpunch",
+        "tm:dreameater",
+        "tm:earthquake",
+        "tm:embargo",
+        "tm:encore",
+        "tm:endure",
+        "tm:facade",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flash",
+        "tm:fling",
+        "tm:focuspunch",
+        "tm:foulplay",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:honeclaws",
+        "tm:hyperbeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:lowkick",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metalclaw",
+        "tm:meteorbeam",
+        "tm:metronome",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:outrage",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:powergem",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psybeam",
+        "tm:psychup",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:quash",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:rockblast",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:roleplay",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:skillswap",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:snore",
+        "tm:spite",
+        "tm:stealthrock",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tm:xscissor",
+        "tm:zenheadbutt"
+    ],
+    "labels": [
+        "genhorizon"
+    ],
+    "aspects": [
+        "dawnian"
+    ],
+    "pokedex": [
+        "cobblemon.species.wendiglim.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 2,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 4,
+    "weight": 355,
+    "evolutions": [],
+    "preEvolution": "sableye dawnian"
+}

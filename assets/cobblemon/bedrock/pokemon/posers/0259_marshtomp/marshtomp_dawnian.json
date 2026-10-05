@@ -1,0 +1,32 @@
+{
+  "portraitScale": 1.66,
+  "portraitTranslation": [0.0, 0.45, 0.0],
+  "profileScale": 0.72,
+  "profileTranslation": [0.0, 0.65, 0.0],
+  "rootBone": "marshtomp",
+  "animations": {
+    "cry": "q.bedrock_stateful('marshtomp_dawnian', 'cry')",
+    "recoil": "q.bedrock_stateful('marshtomp_dawnian', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('marshtomp_dawnian', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('marshtomp_dawnian', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('marshtomp_dawnian', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('marshtomp_dawnian', 'blink')"]
+    }
+  }
+}

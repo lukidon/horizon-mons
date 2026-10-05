@@ -1,0 +1,27 @@
+{
+  "species": "cobblemon:dwebble",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["male", "dawnian"],
+      "poser": "cobblemon:dwebble",
+      "model": "cobblemon:dwebble_dawnian_male.geo",
+      "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_dawnian_male.png",
+      "layers": []
+    },
+    {
+      "aspects": ["male", "dawnian", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_dawnian_male_shiny.png"
+    },
+    {
+      "aspects": ["male", "dawnian", "alpha_eyes"],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_dawnian_male_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

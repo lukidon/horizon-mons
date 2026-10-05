@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:lameyser",
+    "speciesId": "cobblemon:lameyser",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Normal",
+            "unlockForms": [
+                "Normal"
+            ]
+        }
+    ],
+    "variations": []
+}

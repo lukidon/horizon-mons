@@ -1,0 +1,82 @@
+{
+ "portraitScale": 1.5,
+  "portraitTranslation": [-0.4, 0, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [-0.05, 0.6, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('heracross_dawnian', 'cry')"
+  },
+  "poses": {
+    "in-air": {
+      "poseTypes": ["STAND", "WALK"],
+      "condition": "q.in_air",
+      "animations": [
+        "q.bedrock('heracross_dawnian', 'ride_jump')",
+        "q.bedrock('heracross_dawnian', 'ride_ground_run')",
+        "q.bedrock_stateful('heracross_dawnian', 'blink')"
+      ],
+      "transformTicks": 5,
+      "transformToTicks": 5
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "!q.in_air",
+      "animations": [
+        "q.bedrock('heracross_dawnian', 'ground_idle')",
+        "q.bedrock_stateful('heracross_dawnian', 'blink')"
+      ],
+      "transformTicks": 5
+    },
+    "walk": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.bedrock('heracross_dawnian', 'ground_walk')",
+        "q.bedrock_stateful('heracross_dawnian', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity && !q.in_air",
+          "animation": "q.bedrock('heracross_dawnian', 'ride_ground_run')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "run": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.bedrock('heracross_dawnian', 'ground_run')",
+        "q.bedrock_stateful('heracross_dawnian', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity && !q.in_air",
+          "animation": "q.bedrock('heracross_dawnian', 'ride_ground_run')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('heracross_dawnian', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('heracross_dawnian', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('heracross_dawnian', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('heracross_dawnian', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('heracross_dawnian', 'sleep')"]
+    }
+
+  }
+ }

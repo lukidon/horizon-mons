@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:lindcider",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lindcider",
+      "model": "cobblemon:lindcider.geo",
+      "texture": "cobblemon:textures/pokemon/4010_lindcider/lindcider.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4010_lindcider/lindcider_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4010_lindcider/lindcider_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

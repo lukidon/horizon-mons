@@ -1,0 +1,24 @@
+{
+  "pokemons": ["Rotom"],
+  "effect": "cobblemon:rotom_jack_effect",
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "blacklist_apply": [
+          ["appliance=heat"],
+          ["appliance=wash"],
+          ["appliance=frost"],
+          ["appliance=fan"],
+          ["appliance=mow"],
+          ["appliance=smog"],
+          ["appliance=jack"],
+          ["appliance=vision"],
+          ["appliance=sound"]
+        ]
+      },
+      "aspects": ["appliance=jack"]
+    }
+  },
+  "consume": 1,
+  "revertable": false
+}

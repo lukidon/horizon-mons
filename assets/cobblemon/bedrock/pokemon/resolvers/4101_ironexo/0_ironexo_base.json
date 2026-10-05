@@ -1,0 +1,44 @@
+{
+  "species": "cobblemon:ironexo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironexo",
+      "model": "cobblemon:ironexo.geo",
+      "texture": "cobblemon:textures/pokemon/4101_ironexo/ironexo.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/4101_ironexo/ironexo_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4101_ironexo/ironexo_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/4101_ironexo/ironexo_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4101_ironexo/ironexo_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

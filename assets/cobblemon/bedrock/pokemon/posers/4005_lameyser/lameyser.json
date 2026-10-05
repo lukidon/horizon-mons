@@ -1,0 +1,84 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.7, 3.6, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.2, 0],
+  "rootBone": "lameyser",
+  "animations": {
+    "cry": "q.bedrock_stateful('lameyser', 'cry')"
+  },
+  "poses": {
+    "in-air": {
+      "poseTypes": ["STAND", "WALK"],
+      "condition": "q.in_air",
+      "animations": [
+        "q.bedrock('lameyser', 'ride_jump')",
+        "q.bedrock('lameyser', 'empty_ride')",
+        "q.bedrock_stateful('lameyser', 'blink')"
+      ],
+      "transformTicks": 5,
+      "transformToTicks": 5
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lameyser', 'ground_idle')",
+        "q.bedrock_stateful('lameyser', 'blink')"
+      ],
+      "transformTicks": 5
+    },
+    "run": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.bedrock('lameyser', 'ground_run')",
+        "q.bedrock_stateful('lameyser', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity && !q.in_air",
+          "animation": "q.bedrock('lameyser', 'empty_ride')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "walk": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.bedrock('lameyser', 'ground_walk')",
+        "q.bedrock_stateful('lameyser', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity && !q.in_air",
+          "animation": "q.bedrock('lameyser', 'ride_ground_walk')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('lameyser', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('lameyser', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('lameyser', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('lameyser', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('lameyser', 'sleep')"]
+    }
+
+  }
+ }

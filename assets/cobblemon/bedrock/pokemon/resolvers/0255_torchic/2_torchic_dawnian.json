@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:torchic",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["dawnian"],
+      "poser": "cobblemon:torchic_dawnian",
+      "model": "cobblemon:torchic_dawnian.geo",
+      "texture": "cobblemon:textures/pokemon/0255_torchic/torchic_dawnian.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0255_torchic/torchic_dawnian_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "dawnian"],
+      "texture": "cobblemon:textures/pokemon/0255_torchic/torchic_dawnian_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0255_torchic/torchic_dawnian_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["dawnian", "alpha_eyes"],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0255_torchic/torchic_dawnian_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

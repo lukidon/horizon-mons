@@ -1,0 +1,204 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.luderigus.ground_idle": {
+			"loop": true,
+			"bones": {
+				"arm": {
+					"rotation": [42.65848, -5.98208, "-8.185+Math.cos((query.anim_time) * 90 * 1 - 80) * -6"],
+					"position": [0, -0.75, 0.5]
+				},
+				"bone": {
+					"rotation": [-15, 20, "-17.5+Math.cos((query.anim_time) * 90 * 1) * -4"]
+				},
+				"bone4": {
+					"rotation": [-13.1334, "-84.2929+Math.cos((query.anim_time) * 90 * 1 - 130) * -6", 11.65364],
+					"position": [0, 0, 0.75]
+				},
+				"hand": {
+					"rotation": [61.96307, "-10.0741+Math.cos((query.anim_time) * 90 * 1 - 190) * -3", 21.86245],
+					"position": [1.25, 0, 0]
+				},
+				"thumb": {
+					"rotation": [0, 0, 25]
+				},
+				"pinkie": {
+					"rotation": [0, -7.5, -12.5]
+				},
+				"bone14": {
+					"rotation": [0, -7.5, 0]
+				},
+				"ring_finger": {
+					"rotation": [0, -17.5, 0]
+				},
+				"bone13": {
+					"rotation": [0, -12.5, 0]
+				},
+				"middle_finger": {
+					"rotation": [0, -17.5, 0]
+				},
+				"middle_tip": {
+					"rotation": [0, -22.5, 0]
+				},
+				"pointer_finger": {
+					"rotation": [-5.123, -21.93857, 13.4936]
+				},
+				"pointer_tip": {
+					"rotation": [0, -15, 0]
+				},
+				"lever": {
+					"rotation": [0, "0+Math.cos((query.anim_time) * 90 * 1 - 190) * -3", 0],
+					"position": [0, 0, 0]
+				},
+				"body": {
+					"rotation": ["-2.5+Math.cos((query.anim_time) * 90 * 0.5 - 90) * 2", 0, "-2.5+Math.cos((query.anim_time) * 90 * 1 - 90) * 1"],
+					"position": [0, "0+Math.cos((query.anim_time) * 90 * 1) * 0.6", 0]
+				}
+			}
+		},
+		"animation.luderigus.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"0+Math.cos((query.anim_time) * 90 * 8 - 90) * 2",
+						"0+Math.cos((query.anim_time) * 90 * 8 -90) * -0.4",
+						"0+Math.cos((query.anim_time) * 90 * 2 -90) * 2"
+					],
+					"position": [0, "0+Math.cos((query.anim_time) * 90 * 8) * 1.2", "-3+Math.cos((query.anim_time) * 90 * 8 - 90) * 1"]
+				},
+				"arm": {
+					"rotation": [0, -5, -30]
+				},
+				"bone": {
+					"rotation": [-19.42877, -2.51611, "-2.1072+Math.cos((query.anim_time) * 90 * 8 - 135) * 2"],
+					"position": [0, -0.75, 0.5]
+				},
+				"bone4": {
+					"rotation": [9.02761, -16.38786, "45.2812+Math.cos((query.anim_time) * 90 * 8 - 180) * 5"],
+					"position": [0, 0, 0.75]
+				},
+				"hand": {
+					"rotation": [0, -32.5, 0]
+				},
+				"thumb": {
+					"rotation": [0, -17.5, 17.5]
+				},
+				"pinkie": {
+					"rotation": [4.30963, -29.7174, -8.64388]
+				},
+				"ring_finger": {
+					"rotation": [0, -22.5, 0]
+				},
+				"middle_finger": {
+					"rotation": [-2.06754, -22.40972, 5.40961]
+				},
+				"pointer_finger": {
+					"rotation": [-7.98205, -23.7695, 19.18246]
+				}
+			}
+		},
+		"animation.luderigus.cry": {
+			"animation_length": 2.7917,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [10, 0, 0],
+						"0.25": {
+							"pre": [-9, 0, 0],
+							"post": [-9, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.0": {
+							"post": [-12.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.3333": {
+							"post": [-9, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5": [-1, 0, 0],
+						"2.6667": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, 0, 0],
+						"0.25": ["0+Math.cos((query.anim_time) * 90 * 36) * -0.3", 0, 0],
+						"2.25": ["0+Math.cos((query.anim_time) * 90 * 36) * -0.3", 0, 0],
+						"2.375": [0, 0, 0]
+					}
+				},
+				"arm": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.125": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [0, 0, -15],
+							"lerp_mode": "catmullrom"
+						},
+						"2.4167": {
+							"post": [0, 0, -15],
+							"lerp_mode": "catmullrom"
+						},
+						"2.625": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.2083": {
+					"effect": "pokemon.luderigus.cry"
+				}
+			}
+		},
+		"animation.luderigus.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eye": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [0, 0, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.luderigus.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [7.5, 0, 0],
+					"position": [0, -6.4, 0]
+				},
+				"eye": {
+					"position": [0, 0, 2]
+				},
+				"lever": {
+					"rotation": [0, -25, 0],
+					"position": [0, 1.6, 0]
+				},
+				"lever_shadow": {
+					"position": [1, 0, 0],
+					"scale": 0.1
+				},
+				"arm": {
+					"position": [9, 0, 0],
+					"scale": 0.1
+				},
+				"shadow": {
+					"position": [-7, 0, 0],
+					"scale": 0.2
+				}
+			}
+		}
+	}
+}

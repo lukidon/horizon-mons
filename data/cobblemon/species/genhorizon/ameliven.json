@@ -1,0 +1,214 @@
+{
+  "implemented": true,
+  "name": "Ameliven",
+  "nationalPokedexNumber": 4002,
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "preEvolution": "combusken dawnian",
+  "abilities": [
+    "torrent",
+    "h:stakeout"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 78,
+    "defence": 64,
+    "special_attack": 125,
+    "special_defence": 64,
+    "speed": 124
+  },
+  "behaviour": {
+        "herd": {
+      "maxSize": 7,
+      "toleratedLeaders": [
+        {
+          "pokemon": "ameliven alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 268,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
+  "moves": [
+    "1:insight",
+    "1:aquacutter",
+    "1:psyshock",
+    "1:psybeam",
+    "1:featherdance",
+    "1:bubblebeam",
+    "1:zenheadbutt",
+    "1:growl",
+    "1:mirrormove",
+    "1:peck",
+    "1:scratch",
+    "3:watergun",
+    "6:quickattack",
+    "9:aquajet",
+    "12:detect",
+    "15:mindreader",
+    "20:aircutter",
+    "25:slash",
+    "30:airslash",
+    "35:focusenergy",
+    "42:calmmind",
+    "49:storedpower",
+    "56:wavecrash",
+    "63:bravebird",
+    "egg:mirrorcoat",
+    "egg:crushclaw",
+    "egg:feint",
+    "egg:lastresort",
+    "egg:psychocut",
+    "egg:smellingsalts",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:attract",
+    "tm:aurasphere",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bravebird",
+    "tm:brine",
+    "tm:calmmind",
+    "tm:chillingwater",
+    "tm:confide",
+    "tm:curse",
+    "tm:cut",
+    "tm:closecombat",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hydrocannon",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:megakick",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:round",
+    "tm:scald",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:tripleaxel",
+    "tm:uproar",
+    "tm:vacuumwave",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt"
+  ],
+  "labels": [
+    "genhorizon"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "pokedex": [
+    "cobblemon.species.ameliven.desc"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1.4,
+    "height": 3.3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 15,
+  "weight": 398,
+  "evolutions": []
+}

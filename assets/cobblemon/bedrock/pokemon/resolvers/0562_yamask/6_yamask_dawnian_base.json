@@ -1,0 +1,48 @@
+{
+  "species": "cobblemon:yamask",
+  "order": 6,
+  "variations": [
+    {
+      "aspects": [
+        "dawnian"
+      ],
+      "poser": "cobblemon:yamask_dawnian",
+      "model": "cobblemon:yamask_dawnian.geo",
+      "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_dawnian.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_dawnian_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dawnian",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_dawnian_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_dawnian_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dawnian",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_dawnian_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "species": "cobblemon:prionuclus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:prionuclus",
+      "model": "cobblemon:prionuclus.geo",
+      "texture": "cobblemon:textures/pokemon/4017_prionuclus/prionuclus.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobblemon:textures/pokemon/4017_prionuclus/prionuclus_opacity.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:prionuclus",
+      "model": "cobblemon:prionuclus.geo",
+      "texture": "cobblemon:textures/pokemon/4017_prionuclus/prionuclus_shiny.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobblemon:textures/pokemon/4017_prionuclus/prionuclus_opacity_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4017_prionuclus/prionuclus_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

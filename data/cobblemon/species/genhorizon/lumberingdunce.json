@@ -1,0 +1,227 @@
+{
+  "implemented": true,
+  "name": "Lumbering Dunce",
+  "nationalPokedexNumber": 4100,
+  "primaryType": "water",
+  "secondaryType": "poison",
+  "abilities": [
+    "protosynthesis"
+  ],
+  "baseStats": {
+    "hp": 121,
+    "attack": 81,
+    "defence": 127,
+    "special_attack": 61,
+    "special_defence": 127,
+    "speed": 53
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "45-60",
+          "JUMP": "10-25",
+          "SKILL": "10-30",
+          "SPEED": "25-35",
+          "STAMINA": "50-80"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      },
+      {
+        "locator": "seat_2"
+      }
+    ]
+  },
+  "behaviour": {
+      "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "lumberingdunce alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.05,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+
+  "catchRate": 30,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 285,
+  "experienceGroup": "slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:poisonsting",
+    "1:watergun",
+    "1:sunnyday",
+    "1:tailwhip",
+    "7:toxicspikes",
+    "14:slam",
+    "21:yawn",
+    "28:poisonjab",
+    "35:muddywater",
+    "42:amnesia",
+    "49:earthquake",
+    "56:toxic",
+    "63:stockpile",
+    "63:swallow",
+    "63:spitup",
+    "70:wideguard",
+    "77:bellydrum",
+    "84:lifedew",
+    "91:gunkshot",
+    "tm:acidspray",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:confide",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:guardswap",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:megapunch",
+    "tm:megahorn",
+    "tm:mudshot",
+    "tm:muddywater",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snore",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:whirlpool",
+    "tm:zenheadbutt"
+  ],
+  "labels": [
+    "genhorizon",
+    "paradox"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "pokedex": [
+    "cobblemon.species.lumberingdunce.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 3.5,
+    "height": 5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 82,
+  "weight": 3360,
+  "features": [
+    "original_dunce"
+  ],
+  "forms": [
+    {
+      "name": "Original Size",
+      "baseScale": 4,
+      "aspects": [
+        "original_dunce"
+      ]
+    }
+  ]
+}

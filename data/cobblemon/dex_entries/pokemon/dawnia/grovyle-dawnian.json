@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:grovyle-dawnian",
+    "speciesId": "cobblemon:grovyle",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+        {
+            "displayForm": "Dawnian",
+            "unlockForms": [
+                "Dawnian"
+            ]
+        }
+    ],
+    "variations": []
+}

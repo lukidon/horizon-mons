@@ -1,0 +1,58 @@
+{
+    "portraitScale": 1.7,
+    "portraitTranslation": [0, -0.2, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [0, 0.54, 0],
+    "animations": {
+        "cry": "q.bedrock_stateful('meowth_dawnian', 'cry')"
+    },
+    "poses": {
+        "battle-standing": {
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "animations": [
+                "q.bedrock('meowth_dawnian', 'battle_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('meowth_dawnian', 'blink')"
+            ]
+        },
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "isBattle": false,
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('meowth_dawnian', 'ground_idle')"
+            ]
+        },
+        "walking": {
+            "poseTypes": ["WALK"],
+            "animations": [
+                "q.bedrock('meowth_dawnian', 'ground_walk')"
+            ]
+        },
+        "float": {
+            "poseTypes": ["FLOAT"],
+            "animations": [
+                "q.bedrock('meowth_dawnian', 'ground_idle')"
+            ]
+        },
+        "swim": {
+            "poseTypes": ["SWIM"],
+            "animations": [
+                "q.bedrock('meowth_dawnian', 'ground_walk')"
+            ]
+        },
+        "sleep": {
+            "poseTypes": ["SLEEP"],
+            "animations": [
+                "q.bedrock('meowth_dawnian', 'sleep')"
+            ]
+        }
+    }
+}

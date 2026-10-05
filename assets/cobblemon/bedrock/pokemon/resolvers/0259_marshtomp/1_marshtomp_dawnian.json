@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:marshtomp",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "dawnian"
+      ],
+      "poser": "cobblemon:marshtomp_dawnian",
+      "model": "cobblemon:marshtomp_dawnian.geo",
+      "texture": "cobblemon:textures/pokemon/0259_marshtomp/marshtomp_dawnian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "dawnian",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0259_marshtomp/marshtomp_dawnian_shiny.png"
+    },
+    {
+      "aspects": [
+        "dawnian",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0259_marshtomp/marshtomp_dawnian_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+In order to get the custom map sprites for the Pokemon, you'll need to copy and paste everything from "variants": { to }, and put it into the xaerominimap/entity/icon/definition/cobblemon file in your version of XaerosCobblemon. 

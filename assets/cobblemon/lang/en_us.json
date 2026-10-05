@@ -1,0 +1,180 @@
+{
+    "cobblemon.ui.pokedex.region.dawnia": "Dawnia",
+    "cobblemon.ui.pokedex.info.form.dawnian": "Dawnian",
+    "cobblemon.starterselection.category.dawn": "Dawn",
+    
+    "cobblemon.species.sableye-dawnian.name": "Sableye",
+    "cobblemon.ui.pokedex.info.form.sableye-dawnian": "Dawnian",
+    "cobblemon.species.sableye-dawnian.desc": "These sableye have adapted to the cold, living in icy caves deep underground, and have formed a pack-like dynamic with others of its kind. This allows them to hunt their favorite prey, Carbink, much more efficiently.",
+    
+    "cobblemon.species.scameleon.name": "Scameleon",
+    "cobblemon.species.scameleon.desc": "Scameleon can become completely invisible and nearly intangible,  often stealing from smaller Pokemon. However, this Pokemon avoids Sobble, due to the fear of its natural rival Inteleon- the only pokemon able to detect it- lurking nearby.",
+    
+    "cobblemon.ui.pokedex.info.form.numel": "",
+    "cobblemon.ui.pokedex.info.form.numel-dawnian": "Dawnian",
+    "cobblemon.species.numel-dawnian.desc": "Spending time in a colder environment caused them to harden. To warm up, this Pokémon soaked in nearby hot springs. Over time, spring water seeped inside and replaced the hot magma in their bodies.",
+    
+    "cobblemon.ui.pokedex.info.form.camerupt": "",
+    "cobblemon.ui.pokedex.info.form.camerupt-dawnian": "Dawnian",
+    "cobblemon.species.camerupt-dawnian.desc": "Their bodies contain mineral rich water with panacea-like properties, making them a popular target for people and Pokémon alike. As a result, they tend to avoid fights, choosing to camouflage along the spring bed instead. Camerupt often form symbiotic relationships with Numel, allowing them to plug up the stumps on their back in exchange for providing warmth.",
+    
+    "cobblemon.species.lameyser.name": "Lameyser",
+    "cobblemon.species.lameyser.desc": "When a Dawnian Camerupt absorbs enough spring water over a long period of time without release, the vast amounts of water and heat in their body causes the geyser on their back to erupt violently, evolving them into Lameyser. They are often seen assisting injured Pokémon and allowing them to soak in the hot springs they produce.",
+    
+    "cobblemon.species.yamask-dawnian.name": "Yamask",
+    "cobblemon.ui.pokedex.info.form.yamask-dawnian": "Dawnian",
+    "cobblemon.species.yamask-dawnian.desc": "This pokemon is said to be what remains of a spirit seeking riches, eternally searching for wealth as punishment. They are often found near ruins or areas containing great treasures, hunting the Gimmighoul that gather around the area.",
+    
+    "cobblemon.species.luderigus.name": "Luderigus",
+    "cobblemon.species.luderigus.desc": "Finally gathering enough coins to pay off its debt, Luderigus preys on the less fortunate. It allows them to spin the lever on its side, siphoning away their life force for a chance at a jackpot. This pokemon often engages in brutal clashes with Gholdengo, incorporating their bodies into itself.",
+    "cobblemon.ui.stash.gold": "Coin Stash",
+
+    "cobblemon.species.heracross-dawnian.name": "Heracross",
+    "cobblemon.ui.pokedex.info.form.heracross-dawnian": "Dawnian",
+    "cobblemon.species.heracross-dawnian.desc": "This pokemon has adapted to cave living, incorporating scavenged minerals into its exoskeleton. It has adapted large claws in order to dig tunnels, as well as to fend off Aron and Lairon that attempt to eat the rare earth metals on its back.",
+ 
+    "cobblemon.species.dripplin.name": "Dripplin",
+    "cobblemon.species.dripplin.desc": "Dripplin hides inside a colorful juice box, with only its eyes and straw poking out. It evolved after Applin spent too much time in a discarded juice box in a city park trash can. The sweet scent it gives off lures children and sometimes Bug-type Pokémon who can't resist a sip. Beware: its juice is actually a highly concentrated sap used to trap prey.",
+   
+    "cobblemon.species.wendiglim.name": "Wendiglim",
+    "cobblemon.species.wendiglim.desc": "When the Sableyes deplete their food supply, they resort to consuming one another. Wendiglim emerges as the sole survivor, now cursed to wander alone, always seeking their next meal.",
+    
+    "cobblemon.species.falinks_dawnian_defensive.desc": "This form of Falinks has adapted to occupy many roles in a traveling party: a paladin, warrior, wizard, ranger, cleric, and a monk. This Pokémon is in reality 6 separate and unique creatures.",
+    "cobblemon.species.falinks_dawnian_offensive.desc": "This form of Falinks has adapted to occupy many roles in a traveling party: a paladin, warrior, wizard, ranger, cleric, and a monk. This Pokémon is in reality 6 separate and unique creatures.",
+    "cobblemon.ui.pokedex.info.form.falinks": "",
+    "cobblemon.ui.pokedex.info.form.falinks-dawniandefensive": "Dawnian (Defensive)",
+    "cobblemon.ui.pokedex.info.form.falinks-dawnianoffensive": "Dawnian (Offensive)",
+    "cobblemon.ability.partyformation": "Party Formation",
+    "cobblemon.ability.partyformation.desc": "The Pokémon switches its formation between defensive and offensive at the end of each turn.",
+    "cobblemon.move.turninitiative": "Turn Initiative",
+    "cobblemon.move.turninitiative.desc": "Depending on their formation, Falinks either attack by focusing a beam that may lower the target's Sp. Atk stat or they increase their Sp. Atk and Sp. Def stats by calming their minds.",
+    "cobblemon.move.stickyshot": "Sticky Shot",
+    "cobblemon.move.stickyshot.desc": "The user spits a sticky substance. This may also leave those hit paralyzed.",
+    "cobblemon.move.fermentroll": "Ferment Roll",
+    "cobblemon.move.fermentroll.desc": "The user rolls at great speed toward the opponent. The user consumes the berry its holding, and uses the energy to double the damage output.",
+    "cobblemon.move.shadowswipe": "Shadow Swipe",
+    "cobblemon.move.shadowswipe.desc": "The user sneak attacks their foe, preparing the user to steal the effects of any attempts to use a healing or stat-changing move.",
+    "cobblemon.move.feedingfrenzy": "Feeding Fenzry",
+    "cobblemon.move.feedingfrenzy.desc": "The user enters an insatiable state of mad hunger and rams itself at the opponent. After two or three turns it becomes confused.",
+    "cobblemon.move.matriarchcarve": "Matriarch Carve",
+    "cobblemon.move.matriarchcarve.desc": "The user slashes down with great, unstoppable speed. This may also lower targets' Defense stat. This attack never misses.",
+    "cobblemon.move.petalshed": "Petal Shed",
+    "cobblemon.move.petalshed.desc": "The user sheds sharp petals from its body rapidly. This may also leave those hit poisoned.",
+    "cobblemon.move.uproot": "Uproot",
+    "cobblemon.move.uproot.desc": "The user takes time to spread large roots underneath the battlefield, ripping them up at the last moment, dealing large damage, and flinging the opponent out of the field.",
+    "cobblemon.move.insight": "Insight",
+    "cobblemon.move.insight.desc": "The user focuses its attention on delivering a swift and quick blow to the opponent. The attack on the next turn always results in a critical hit.",
+    "cobblemon.move.vitrify": "Vitrify",
+    "cobblemon.move.vitrify.desc": "The user shoots a bubble of molten glass at the opponent. Power doubles if opponent's HP is less than 50%.",
+    "cobblemon.move.feralinstinct": "Feral Instinct",
+    "cobblemon.move.feralinstinct.desc": "The user allows its hunger to take over to make a devastating first impression, but this move only succeeds if it is used first thing upon the user entering a battle.",
+    "cobblemon.ability.indebted": "Indebted",
+    "cobblemon.ability.indebted.desc": "Contact with the Pokémon changes the attacker's Ability to Indebted.",
+    "cobblemon.ability.juicedup": "Juiced Up",
+    "cobblemon.ability.juicedup.desc": "The Pokémon's HP is restored when it eats any Berry, in addition to the Berry's usual effect.",
+    
+    "cobblemon.species.ironexo.name": "Iron Exo",
+    "cobblemon.species.ironexo.desc": "This Pokémon appeared in a small rural village hiding in the trees. Local legend says that the Pokémon is an exo skeleton wrapping a smaller Pokémon inside of it. This has given it the name “Iron Exo”. Iron Exo is not outright malicious, and seems to remember the Pokémon it once was.",
+    
+    "cobblemon.species.lumberingdunce.name": "Lumbering Dunce",
+    "cobblemon.species.lumberingdunce.desc": "This creature resembles an odd combination of two closely related Pokémon. It is so giant that the ground below it sometimes gives way, creating sink holes. This Pokémon doesn’t appear to have a brain, which has stumped researchers.",
+
+    "cobblemon.ui.pokedex.info.form.torchic": "",
+    "cobblemon.ui.pokedex.info.form.torchic-dawnian": "Dawnian",
+    "cobblemon.species.torchic_dawnian.desc": "When violent storms hit Hoenn a long time ago, Torchic were forced to adapt in wetter forest environments. It has become extremely skittish and scared of its surroundings. Torchic was forced to rely on stealth to survive. Due to this, its fighting spirit and ability was lost.",
+    
+    "cobblemon.ui.pokedex.info.form.combusken": "",
+    "cobblemon.ui.pokedex.info.form.combusken-dawnian": "Dawnian",
+    "cobblemon.species.combusken_dawnian.desc": "After adjusting, Combusken regains its drive of fighting through a new way, hanging from trees and awaiting for prey to appear. Instead of flying conventionally, it floats with psychic power.",
+
+    "cobblemon.species.ameliven.name": "Ameliven",
+    "cobblemon.species.ameliven.desc": "It's evolved to no longer possess any upper limbs. It uses its feather cloak to disguise itself in shadows. If it doesn't want to be seen, it won't be. Ameliven are very shy Pokémon, it takes time and effort to build a bond. When Ameliven is close with a trainer, they will create psychic constructs for them.",
+    
+    "cobblemon.species.virosis.name": "Virosis",
+    "cobblemon.species.virosis.desc": "Virosis should only be interacted with by certified scientists as despite being frozen it can still transmit a plethora of dangerous toxins. Research on Virosis has greatly improved the way we handle outbreaks and accelerates cure production.",
+
+     "cobblemon.species.permosion.name": "Permosion",
+    "cobblemon.species.permosion.desc": "When Virosis evolves its body hardens itself by absorbing moisture from the air. Permosion is the safest stage of its evolution, however it is still advised not to interact with Permosion as in non sub-zero temps its body may melt and release plague filled mist into the air.",
+
+     "cobblemon.species.prionuclus.name": "Prionuclus",
+    "cobblemon.species.prionuclus.desc": "The cells in Prionuclus' body have begun to unfold and decay, however its body creates new cells faster than they can decay. Prionuclus has to keep its body frozen at all times otherwise the heat will cause its healthy cells to die off rapidly.",
+
+    "cobblemon.ui.pokedex.info.form.mudkip": "",
+    "cobblemon.ui.pokedex.info.form.mudkip-dawnian": "Dawnian",
+    "cobblemon.species.mudkip_dawnian.desc": "Mudkip's migrated deeper into swamps, facing new predators. It chose to hide in plain sight under lily pads to survive. This lily pad became an extension of Mudkip's body.",
+    
+     "cobblemon.ui.pokedex.info.form.marshtomp": "",
+    "cobblemon.ui.pokedex.info.form.marshtomp-dawnian": "Dawnian",
+    "cobblemon.species.marshtomp_dawnian.desc": "Marshtomp can lie still for days on end without a single motion. Its skin is as tough as the thickest tree trunk.",
+
+    "cobblemon.species.bogolotl.name": "Bogolotl",
+    "cobblemon.species.bogolotl.desc": "Though it may be lazy, it will spring into action immediately if a weaker Pokémon or trainer is in danger. Once the danger is settled, it will return to floating in its swampy water. It makes sure no other Pokémon are bullied again by protecting everyone. Its punch can shatter a tree into a thousand pieces.",
+    
+    "cobblemon.ui.pokedex.info.form.treecko": "",
+    "cobblemon.ui.pokedex.info.form.treecko-dawnian": "Dawnian",
+    "cobblemon.species.treecko_dawnian.desc": "Violent weather drove Treecko to volcanic regions where it began to change form over time. It crushes and heats rock it finds to stick to its tail as a symbol of status to rival Treecko. This Treecko is much more violent than Hoenn's. It gets into brutal battles with rival Treecko, slamming their red face plates into each other until one shatters.",
+    
+     "cobblemon.ui.pokedex.info.form.grovyle": "",
+    "cobblemon.ui.pokedex.info.form.grovyle-dawnian": "Dawnian",
+    "cobblemon.species.grovyle_dawnian.desc": "Grovyle fight for dominance by spitting molten glass at one another, the first to bow out of the challenge or be rendered incapable of continuing loses.",
+
+    "cobblemon.species.varunalas.name": "Varunalas",
+    "cobblemon.species.varunalas.desc": "Varunalas are very territorial, and will do anything to protect the volcanoes they reside on. It's insides have become a material very similar to molten glass. It's skin is boiling to the touch, and will cause severe burns if touched. It's red face plating is the only safe spot on Varunalas to touch. Its molten glass-like insides have become an unethical luxury.",
+    
+    "cobblemon.species.lindcider.name": "Lindcider",
+    "cobblemon.species.lindcider.desc": "Over time, the sap residing in Dripplin's juice box ferments, causing evolution. Lindcider is in a constant state of drunken induced dizziness, and has a hard time placing where it is or where it's going at times. The liquid that Lindcider produces is not safe to consume, and is highly toxic to humans.",
+
+    "cobblemon.ui.pokedex.info.form.rotom-smog": "Smog Rotom",
+    "cobblemon.species.rotom-smog.desc": "A form in which Rotom lurks within an odd inhaler. A bothersome Pokémon, causing trouble by blowing noxious fumes into the air.",
+
+    "cobblemon.ui.pokedex.info.form.rotom-jack": "Jack Rotom",
+    "cobblemon.species.rotom-jack.desc": "A form in which Rotom lurks within a weird-looking pickaxe. A bothersome Pokémon, causing trouble by uprooting infrastructure.",
+
+    "cobblemon.ui.pokedex.info.form.rotom-sound": "Sound Rotom",
+    "cobblemon.species.rotom-sound.desc": "A form in which Rotom lurks within a peculiar box. A bothersome Pokémon, causing trouble by playing loud noises day and night.",
+
+    "cobblemon.ui.pokedex.info.form.rotom-vision": "Vision Rotom",
+    "cobblemon.species.rotom-vision.desc": "A form in which Rotom lurks within a unorthodox pair of goggles. A bothersome Pokémon, causing trouble by playing psychic tricks on those who wear it.",
+    
+    "cobblemon.species.aveeon.name": "Aveeon",
+    "cobblemon.species.aveeon.desc": "In regions with aggressive flying predators, Eevee's dens are often destroyed, leaving them homeless. It has been observed that Altaria has a unique connection to these Eevees, taking them under its wing. This relationship causes it to evolve to Aveeon, inheriting new features such as a cloudy makeup and winged ears.",
+    
+    "cobblemon.species.papileon.name": "Papileon",
+    "cobblemon.species.papileon.desc": "Papileon are beautiful Pokémon; it is said that seeing one can fuel a creative mind to hone its skills for years to come. Their wing-like ears sometimes fall off naturally, which causes Papileon to enter a cocoon of its own creation to regenerate. These wings can be used in fashion, but they are a very expensive material.",
+    
+     "cobblemon.ui.pokedex.info.form.dwebble": "",
+    "cobblemon.ui.pokedex.info.form.dwebble-dawnian": "Dawnian",
+    "cobblemon.species.dwebble-dawnian.desc": "On stony shores near draconic burial sites, an exceptionally rare species of Dwebble finds its home by scavenging for various skeletal parts. Male Dwebble have been spotted to prefer Kingdra skeletons, whereas females prefer Dragonite.",
+
+
+    "cobblemon.species.drimpact.name": "Drimpact",
+    "cobblemon.species.drimpact.desc": "When Dwebble evolves, it learns to better utilize its found skull for a more offensive and versatile purpose. It tends to always keep a claw inside the skull to punch with deadly force. When it is in need of food, it will burrow on the ocean floor with the skeleton exposed to attract Pokémon. Drimpact is a trickster and does anything for an upper hand.",
+    
+    "cobblemon.ui.pokedex.info.form.glimmet": "",
+    "cobblemon.ui.pokedex.info.form.glimmet-dawnian": "Dawnian",
+    "cobblemon.species.glimmet-dawnian.name": "Glimmet",
+    "cobblemon.species.glimmet-dawnian.desc": "In areas with low mineral density, Glimmet will instead attach themselves to underhangs and let their petals droop to absorb microscopic minerals in the air. Glimmet are often seen at shrines and rural areas for the soothing sounds their petals make in the wind",
+    
+    "cobblemon.ui.pokedex.info.form.glimmora": "",
+    "cobblemon.ui.pokedex.info.form.glimmora-dawnian": "Dawnian",
+    "cobblemon.ui.pokedex.info.form.glimmora-mega dawnian": "Mega Dawnian",
+    "cobblemon.species.glimmora-dawnian.name": "Glimmora",
+    "cobblemon.species.glimmora-dawnian.desc": "Glimmora's petals constantly flake off in microscopic amounts that shimmer in the light. These fragments are extremely sharp and toxic, inhaling them will wreak havoc on your body.",
+    "cobblemon.species.glimmora-dawnian-mega.desc": "Glimmora's petals constantly flake off in microscopic amounts that shimmer in the light. These fragments are extremely sharp and toxic, inhaling them will wreak havoc on your body.",
+    
+    "cobblemon.species.queentana.name": "Queentana",
+    "cobblemon.species.queentana.desc": "Legend has it the first Queentana's were female Pawniard's who joined forces after mistreatment from their Kingambit. Queentana formulates and executes brutal strategies for decisive victories. This Pokémon is often seen poaching Pawniard from rival Kingambit.",
+    
+    "cobblemon.ui.pokedex.info.form.musharna-mega": "Mega",
+    "cobblemon.species.musharna-mega.desc": "Exposure to mega energy has caused Musharna to enter an impossibly deep sleep. its dream mist now forms a physical membrane resembling a pokemon that doesn't exist.",
+    
+    "cobblemon.ui.pokedex.info.form.meowth-dawnian": "Dawnian",
+    "cobblemon.species.meowth-dawnian.name": "Meowth",
+    "cobblemon.species.meowth-dawnian.desc": "This breed of Meowth is consumed by avarice, it loves collecting shiny objects. It has been spotted in the wild playing a primitive form of cards with other Meowth. This Pokémon seems to come out the victor more often than not in any situation it's in.",
+
+    "cobblemon.species.perakkii.name": "Perakkii",
+    "cobblemon.species.perakkii.desc": "This Pokémon possesses a natural ability to influence luck for itself and others around it. Its skin is made of a material that is similar in texture to paper. Perakkii carries around a set of cards made of its paper-like fur to play a game with anyone willing to entertain it.",
+    "cobblemon.move.luckydraw": "Lucky Draw",
+    "cobblemon.move.luckydraw.desc": "The user draws a card, which activates an effect based on its rank. Lower ranks backfire, while higher ones have stronger effects.",
+    "cobblemon.battle.activate.luckydraw": "%1$s drew %3$s!"
+}

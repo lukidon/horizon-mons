@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:musharna",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+      ],
+      "poser": "cobblemon:musharna_mega",
+      "model": "cobblemon:musharna_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0518_musharna/musharna_mega.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobblemon:textures/pokemon/0518_musharna/musharna_mega_opacity.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0518_musharna/musharna_mega_shiny.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobblemon:textures/pokemon/0518_musharna/musharna_mega_opacity_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0518_musharna/musharna_mega_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

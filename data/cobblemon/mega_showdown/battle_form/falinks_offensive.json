@@ -1,0 +1,13 @@
+{
+  "pokemons": ["Falinks"],
+  "showdown_form_change_id": "offensive",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": ["formation=offensive"]
+    },
+    "revert": {
+      "aspects": ["formation=defensive"]
+    }
+  },
+  "effect": "mega_showdown:formation"
+}

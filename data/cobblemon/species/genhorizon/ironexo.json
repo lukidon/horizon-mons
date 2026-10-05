@@ -1,0 +1,172 @@
+{
+  "implemented": true,
+  "name": "Iron Exo",
+  "nationalPokedexNumber": 4101,
+  "primaryType": "dark",
+  "secondaryType": "fighting",
+  "abilities": [
+    "quarkdrive"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 126,
+    "defence": 76,
+    "special_attack": 84,
+    "special_defence": 70,
+    "speed": 130
+  },
+  "behaviour": {
+      "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "ironexo alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+
+  "catchRate": 30,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:feintattack",
+    "1:lowkick",
+    "1:electricterrain",
+    "1:detect",
+    "7:assurance",
+    "14:stomp",
+    "21:endure",
+    "28:feint",
+    "35:throatchop",
+    "42:suckerpunch",
+    "49:bulkup",
+    "56:highjumpkick",
+    "63:agility",
+    "70:blazekick",
+    "77:firstimpression",
+    "84:bounce",
+    "91:axekick",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:aurasphere",
+    "tm:blazekick",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confide",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:electricterrain",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:lunge",
+    "tm:megakick",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:round",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:tripleaxel",
+    "tm:upperhand",
+    "tm:uturn"
+  ],
+  "labels": [
+    "genhorizon",
+    "paradox"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "pokedex": [
+    "cobblemon.species.ironexo.desc"
+  ],
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 2,
+    "height": 4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 20,
+  "weight": 2020,
+  "evolutions": []
+}

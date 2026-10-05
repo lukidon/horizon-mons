@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:perakkii",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:perakkii",
+      "model": "cobblemon:perakkii.geo",
+      "texture": "cobblemon:textures/pokemon/4014_perakkii/perakkii.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "poser": "cobblemon:perakkii",
+      "model": "cobblemon:perakkii.geo",
+      "texture": "cobblemon:textures/pokemon/4014_perakkii/perakkii_shiny.png"
+    },
+     {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4014_perakkii/perakkii_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

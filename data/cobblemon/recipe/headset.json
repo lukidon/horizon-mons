@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GRG",
+        "BCB"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:copper_block"
+        },
+        "C": {
+            "item": "minecraft:copper_ingot"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "!minecraft:jukebox_playable": {},
+            "minecraft:max_stack_size": 64,
+            "minecraft:custom_model_data": 6704,
+            "minecraft:rarity": "common",
+            "minecraft:item_name": "\"Headset Unit\"",
+            "minecraft:lore": [
+                "{\"color\":\"gray\",\"italic\":false,\"text\":\"A special Headset a specific Pokemon can enter.\"}"
+            ],
+            "mega_showdown:registry_type_component": "form_change_interact",
+            "mega_showdown:registry_location_component": "cobblemon:vision_appliance"
+        }
+    }
+}

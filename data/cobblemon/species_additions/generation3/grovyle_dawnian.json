@@ -1,0 +1,204 @@
+{
+  "target": "cobblemon:grovyle",
+  "features": [
+    "dawnian"
+  ],
+  "forms": [
+    {
+      "name": "Dawnian",
+      "primaryType": "fire",
+      "secondaryType": "ground",
+      "maleRatio": 0.875,
+      "height": 9,
+      "weight": 216,
+      "pokedex": [
+        "cobblemon.species.grovyle_dawnian.desc"
+      ],
+      "aspects": [
+        "dawnian"
+      ],
+      "labels": [
+        "genhorizon",
+        "dawnian_form",
+        "generation3"
+      ],
+      "abilities": [
+        "blaze",
+        "h:intimidate"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 95,
+        "defence": 70,
+        "special_attack": 50,
+        "special_defence": 60,
+        "speed": 50
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:red_sand",
+            "quantityRange": "0-1"
+          }
+        ]
+      },
+      "moves": [
+        "1:ember",
+        "1:agility",
+        "1:flameburst",
+        "1:falseswipe",
+        "1:bulldoze",
+        "1:leer",
+        "1:tackle",
+        "3:sandattack",
+        "6:quickattack",
+        "9:flamecharge",
+        "12:detect",
+        "15:quickguard",
+        "20:assurance",
+        "25:firepunch",
+        "30:slam",
+        "35:doubleteam",
+        "40:flamethrower",
+        "45:screech",
+        "50:earthquake",
+        "55:flareblitz",
+        "egg:crushclaw",
+        "egg:doublekick",
+        "egg:dragonbreath",
+        "egg:smokescreen",
+        "egg:nightslash",
+        "egg:slash",
+        "egg:morningsun",
+        "egg:headsmash",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:agility",
+        "tm:assurance",
+        "tm:attract",
+        "tm:blazekick",
+        "tm:breakingswipe",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:confide",
+        "tm:crunch",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:dragontail",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:firepledge",
+        "tm:firepunch",
+        "tm:firespin",
+        "tm:flamecharge",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:flash",
+        "tm:fling",
+        "tm:focuspunch",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:incinerate",
+        "tm:irontail",
+        "tm:lashout",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:naturepower",
+        "tm:overheat",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:safeguard",
+        "tm:screech",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunderpunch",
+        "tm:upperhand",
+        "tm:vacuumwave",
+        "tm:workup"
+      ],
+      "evolutions": [
+        {
+          "id": "grovyledawnian_varunalas",
+          "variant": "level_up",
+          "result": "varunalas",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "vitrify"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 36
+            }
+          ],
+          "requiredContext": ""
+        }
+      ],
+      "battleOnly": false,
+      "behaviour": {
+       "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "grovyle dawnian",
+          "tier": 1
+        },
+        {
+          "pokemon": "varunalas",
+          "tier": 2
+        }
+      ]
+    },
+        "resting": {
+          "canSleep": false,
+          "depth": "normal",
+          "light": "0-4",
+          "willSleepOnBed": false,
+          "times": "night"
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.3,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.3
+          },
+          "wanderChance": 1
+        }
+      }
+    }
+  ]
+}

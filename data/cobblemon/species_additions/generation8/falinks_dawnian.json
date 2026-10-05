@@ -1,0 +1,255 @@
+{
+    "target": "cobblemon:falinks",
+    "forms": [
+        {
+            "name": "Dawnian-Defensive",
+            "primaryType": "fighting",
+            "secondaryType": "fairy",
+            "maleRatio": -1,
+            "height": 30,
+            "weight": 620,
+            "labels": [
+                "genhorizon",
+                "dawnian_form",
+                "generation8"
+            ],
+            "pokedex": [
+                "cobblemon.species.falinks_dawnian_defensive.desc"
+            ],
+            "aspects": [
+                "dawnian",
+                "defensive-formation"
+            ],
+            "abilities": [
+                "partyformation",
+                "h:partyformation"
+            ],
+            "baseStats": {
+                "hp": 60,
+                "attack": 50,
+                "defence": 105,
+                "special_attack": 50,
+                "special_defence": 105,
+                "speed": 100
+            },
+            "behaviour": {
+                
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "falinks dawnian alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  },
+
+            "moves": [
+                "1:detect",
+                "1:tackle",
+                "5:armthrust",
+                "10:lockon",
+                "10:pinmissile",
+                "15:headbutt",
+                "20:calmmind",
+                "25:playrough",
+                "30:reversal",
+                "35:extremespeed",
+                "40:turninitiative",
+                "45:irondefense",
+                "50:sacredsword",
+                "55:moonblast",
+                "60:wish",
+                "tm:agility",
+                "tm:assurance",
+                "tm:aurasphere",
+                "tm:babydolleyes",
+                "tm:bodypress",
+                "tm:bodyslam",
+                "tm:brickbreak",
+                "tm:bulkup",
+                "tm:calmmind",
+                "tm:charm",
+                "tm:closecombat",
+                "tm:coaching",
+                "tm:confide",
+                "tm:dazzlinggleam",
+                "tm:disarmingvoice",
+                "tm:doubleteam",
+                "tm:drainingkiss",
+                "tm:endure",
+                "tm:facade",
+                "tm:falseswipe",
+                "tm:flamethrower",
+                "tm:focusblast",
+                "tm:focusenergy",
+                "tm:futuresight",
+                "tm:gigaimpact",
+                "tm:headbutt",
+                "tm:helpinghand",
+                "tm:highhorsepower",
+                "tm:hyperbeam",
+                "tm:irondefense",
+                "tm:ironhead",
+                "tm:knockoff",
+                "tm:lunge",
+                "tm:megahorn",
+                "tm:mistyexplosion",
+                "tm:mistyterrain",
+                "tm:payback",
+                "tm:playrough",
+                "tm:poisonjab",
+                "tm:protect",
+                "tm:psybeam",
+                "tm:psychup",
+                "tm:psychic",
+                "tm:raindance",
+                "tm:reflect",
+                "tm:rest",
+                "tm:retaliate",
+                "tm:revenge",
+                "tm:reversal",
+                "tm:rockslide",
+                "tm:rocksmash",
+                "tm:rocktomb",
+                "tm:roleplay",
+                "tm:round",
+                "tm:safeguard",
+                "tm:screech",
+                "tm:sleeptalk",
+                "tm:smartstrike",
+                "tm:snore",
+                "tm:storedpower",
+                "tm:substitute",
+                "tm:sunnyday",
+                "tm:superpower",
+                "tm:swordsdance",
+                "tm:takedown",
+                "tm:terablast",
+                "tm:throatchop",
+                "tm:thunderwave",
+                "tm:thunderbolt",
+                "tm:trailblaze",
+                "tm:trick",
+                "tm:trickroom",
+                "tm:upperhand",
+                "tm:uproar",
+                "tm:zenheadbutt"
+            ],
+            "evolutions": [],
+            "battleOnly": true
+        },
+        {
+            "name": "Dawnian-Offensive",
+            "primaryType": "fighting",
+            "secondaryType": "fairy",
+            "maleRatio": -1,
+            "height": 30,
+            "weight": 620,
+            "labels": [
+                "genhorizon",
+                "dawnian_form",
+                "generation8"
+            ],
+            "pokedex": [
+                "cobblemon.species.falinks_dawnian_offensive.desc"
+            ],
+            "aspects": [
+                "dawnian",
+                "offensive-formation"
+            ],
+            "abilities": [
+                "partyformation",
+                "h:partyformation"
+            ],
+            "baseStats": {
+                "hp": 60,
+                "attack": 105,
+                "defence": 50,
+                "special_attack": 105,
+                "special_defence": 50,
+                "speed": 100
+            },
+            "moves": [
+                "1:fairywind",
+                "1:detect",
+                "1:lifedew",
+                "1:barrage",
+                "5:meditate",
+                "5:circlethrow",
+                "10:storedpower",
+                "10:irondefense",
+                "15:drainingkiss",
+                "15:fling",
+                "20:holdhands",
+                "20:turninitiative",
+                "25:zenheadbutt",
+                "25:slash",
+                "30:dazzlinggleam",
+                "30:wideguard",
+                "35:healpulse",
+                "35:spikes",
+                "40:calmmind",
+                "40:sacredsword",
+                "tm:agility",
+                "tm:takedown",
+                "tm:protect",
+                "tm:trailblaze",
+                "tm:rocktomb",
+                "tm:smartstrike",
+                "tm:brickbreak",
+                "tm:zenheadbutt",
+                "tm:poisonjab",
+                "tm:swordsdance",
+                "tm:bodypress",
+                "tm:substitute",
+                "tm:helpinghand",
+                "tm:irondefense",
+                "tm:reversal",
+                "tm:mysticalfire",
+                "tm:icywind",
+                "tm:thunderbolt",
+                "tm:chillingwater",
+                "tm:bulldoze",
+                "tm:drainingkiss",
+                "tm:storedpower",
+                "tm:bulletseed",
+                "tm:seedbomb",
+                "tm:reflect",
+                "tm:lightscreen",
+                "tm:dazzlinggleam",
+                "tm:taunt",
+                "tm:spikes",
+                "tm:stealthrock",
+                "tm:encore",
+                "tm:mistyterrain",
+                "tm:closecombat",
+                "tm:smackdown",
+                "tm:coaching",
+                "tm:aurasphere"
+            ],
+            "evolutions": [],
+            "battleOnly": false
+        }
+    ]
+}

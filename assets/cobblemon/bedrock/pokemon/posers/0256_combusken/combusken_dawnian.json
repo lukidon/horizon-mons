@@ -1,0 +1,42 @@
+{
+  "portraitScale": 2.17,
+  "portraitTranslation": [ -0.13, 0.66, 0],
+  "profileScale": 0.54,
+  "profileTranslation": [ 0, 0.95, 0],
+  "rootBone": "combusken_dawnian",
+  "animations": {
+    "cry": "q.bedrock_stateful('combusken_dawnian', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('combusken_dawnian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('combusken_dawnian', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('combusken_dawnian', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('combusken_dawnian', 'blink')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('combusken_dawnian', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('combusken_dawnian', 'blink')"]
+    }
+  }
+}

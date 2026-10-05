@@ -1,0 +1,83 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.4, -0.3, 0],
+  "profileScale": 1.1,
+  "profileTranslation": [0, 0, 0],
+  "rootBone": "numel_dawnian",
+  "animations": {
+    "cry": "q.bedrock_stateful('numel_dawnian', 'cry')"
+  },
+  "poses": {
+    "in-air": {
+      "poseTypes": ["STAND", "WALK"],
+      "condition": "q.in_air",
+      "animations": [
+        "q.bedrock('numel_dawnian', 'ride_jump')",
+        "q.bedrock('numel_dawnian', 'empty_ride')",
+        "q.bedrock_stateful('numel_dawnian', 'blink')"
+      ],
+      "transformTicks": 5,
+      "transformToTicks": 5
+    },
+      "standing": {
+        "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+        "condition": "!q.in_air",
+        "animations": [
+        "q.look('head')",
+        "q.bedrock('mudsdale', 'ground_idle')",
+        "q.bedrock_stateful('mudsdale', 'blink')"
+      ],
+      "transformTicks": 5
+    },
+    "walk": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.is_sprinting",
+      "animations": [
+        "q.bedrock('numel_dawnian', 'ground_walk')",
+        "q.bedrock_stateful('numel_dawnian', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('numel_dawnian', 'empty_ride')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "run": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.is_sprinting",
+      "animations": [
+        "q.bedrock('numel_dawnian', 'ground_run')",
+        "q.bedrock_stateful('numel_dawnian', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('numel_dawnian', 'empty_ride')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('numel_dawnian', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('numel_dawnian', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('numel_dawnian', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('numel_dawnian', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('numel_dawnian', 'sleep')"]
+    }
+  }
+ }
