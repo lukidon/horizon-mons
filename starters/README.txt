@@ -1,0 +1,1 @@
+If you want to be able to pick the Dawnian starters as your starter, you'll need to copy and paste the starters.json file into your config/cobblemon. If you are using more than 1 pair of custom starters, you will need to copy and paste the Dawnians from inside the file into the other file, or vice versa.
