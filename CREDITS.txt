@@ -4,6 +4,7 @@
 - Fakemon cries by Commercial
 - Icon sprites by 1MeenGreenie
 - Mega Musharna icon sprite by Calano
+- Wiki by Lion, Lukidon, and SidewaysSteven.
 - Balancing by Commercial, Lukidon, Scarlet, and SidewaysSteven
 - Fakemon files by Deuli and Lukidon
 - Move & Ability Data by Deuli
@@ -12,10 +13,11 @@
 - D. Sableye line, Dripplin and Papileon by ItsJustJ (Wendiglim textures assisted by Lukidon)
 - Lindcider design by ItsJustJ
 - Aveeon design by Stewen27
-- D. Glimmet line and Mega Musharna design by Calano
-- D. Heracross and D. Dwebble line concept by Edancheese
+- D. Glimmet line, Mega Musharna and Virosis line design by Calano
+- D. Heracross, D. Dwebble line and Virosis line concept by Edancheese
 - D. Numel and Scameleon line concept by Commercial
 - D. Yamask line concept by SidewaysSteven
 - Queentana concept by Pokemark
 - Mega Musharna and Varunalas Animations by DaDolphin
 - D. Glimmet line and Mega Musharna artwork by YogurComics
+- New Dawn by Lion

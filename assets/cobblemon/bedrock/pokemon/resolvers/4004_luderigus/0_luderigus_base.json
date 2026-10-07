@@ -7,14 +7,26 @@
       "poser": "cobblemon:luderigus",
       "model": "cobblemon:luderigus.geo",
       "texture": "cobblemon:textures/pokemon/4004_luderigus/luderigus.png",
-      "layers": []
+      "layers": [
+         {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/4004_luderigus/luderigus_emissive.png"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/4004_luderigus/luderigus_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/4004_luderigus/luderigus_shiny_emissive.png"
+        }
+      ]
     },
     {
       "aspects": [
