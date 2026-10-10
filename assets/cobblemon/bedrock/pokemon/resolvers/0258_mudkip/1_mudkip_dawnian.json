@@ -19,7 +19,7 @@
       "texture": "cobblemon:textures/pokemon/0258_mudkip/mudkip_dawnian_shiny.png"
     },
     {
-      "asoects": ["dawnian", "alpha_eyes"],
+      "aspects": ["dawnian", "alpha_eyes"],
       "layers": [
         {
           "name": "alpha_eyes",

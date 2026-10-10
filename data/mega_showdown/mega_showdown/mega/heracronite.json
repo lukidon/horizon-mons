@@ -1,0 +1,25 @@
+{
+  "showdown_id": "heracronite",
+  "pokemons": [
+    "Heracross"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "blacklist_aspects": [
+          [
+            "dawnian"
+          ]
+        ]
+      },
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

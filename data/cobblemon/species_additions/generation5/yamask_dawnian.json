@@ -2,7 +2,7 @@
     "target": "cobblemon:yamask",
     "features": [
         "dawnian",
-        "gimmighoul_coins"
+        "yamask_coins"
     ],
     "forms": [
         {
@@ -180,7 +180,7 @@
                     "requirements": [
                         {
                             "variant": "properties",
-                            "target": "yamask gimmighoul_coins=777"
+                            "target": "yamask yamask_coins=777"
                         }
                     ],
                     "requiredContext": ""
