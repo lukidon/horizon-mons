@@ -10,9 +10,9 @@
               "stickyshot"
             ],
            "requiredContext": {
-    "item": "minecraft:music_disc_13",
+    "items": "minecraft:music_disc_13",
     "components": {
-      "minecraft:custom_data": {
+           "minecraft:custom_data": {
         "applin_juice": true
       }
     }

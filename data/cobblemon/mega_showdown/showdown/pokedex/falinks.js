@@ -9,7 +9,7 @@
   heightm: 3,
       weightkg: 62,
     color: "Yellow",
-    eggGroups: ["Fairy", "Mineral"]
+    eggGroups: ["Fairy", "Mineral"],
   otherFormes: ["Falinks-Dawnian-Defensive", "Falinks-Dawnian-Offensive"],
       formeOrder: ["Falinks", "Falinks-Dawnian-Defensive", "Falinks-Dawnian-Offensive"]
 }
