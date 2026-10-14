@@ -5,9 +5,15 @@
     "conditionAspects": [],
     "forms": [
         {
-            "displayForm": "Dawnian",
+            "displayForm": "Dawnian F",
             "unlockForms": [
-                "Dawnian"
+                "Dawnian F"
+            ]
+        },
+        {
+            "displayForm": "Dawnian M",
+            "unlockForms": [
+                "Dawnian M"
             ]
         }
     ],

@@ -4,13 +4,12 @@
   "nationalPokedexNumber": 4011,
   "primaryType": "bug",
   "secondaryType": "dragon",
-  "preEvolution": "dwebble dawnian",
+  "preEvolution": "dwebble dawnian gender=female",
   "labels": [
     "genhorizon"
   ],
   "aspects": [
-    "dawnian",
-    "female"
+    "dawnian"
   ],
   "abilities": [
     "technician",
@@ -62,7 +61,7 @@
   },
 
   "catchRate": 75,
-  "maleRatio": 0.5,
+  "maleRatio": 0,
   "shoulderMountable": false,
   "baseExperienceYield": 100,
   "experienceGroup": "medium_fast",
@@ -193,7 +192,7 @@
   "evolutions": [],
   "forms": [
     {
-      "name": "drimpact",
+      "name": "M",
       "aspects": [
         "male",
         "dawnian"
@@ -202,7 +201,9 @@
         "technician",
         "shellarmor",
         "h:sniper"
-      ]
+      ],
+      "maleRatio": 1,
+      "preEvolution": "dwebble dawnian gender=male"
     }
   ]
 }

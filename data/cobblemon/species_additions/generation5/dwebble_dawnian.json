@@ -2,15 +2,14 @@
     "target": "cobblemon:dwebble",
     "forms": [
         {
-            "name": "Dawnian",
+            "name": "Dawnian F",
             "primaryType": "bug",
             "secondaryType": "water",
-            "maleRatio": 0.5,
+            "maleRatio": 0,
             "height": 3,
             "weight": 145,
             "aspects": [
-                "dawnian",
-                "female"
+                "dawnian"
             ],
             "labels": [
                 "genhorizon",
@@ -163,10 +162,10 @@
             }
         },
         {
-            "name": "Dawnian",
+            "name": "Dawnian M",
             "primaryType": "bug",
             "secondaryType": "water",
-            "maleRatio": 0.5,
+            "maleRatio": 1,
             "height": 3,
             "weight": 145,
             "aspects": [

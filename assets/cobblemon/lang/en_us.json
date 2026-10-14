@@ -74,10 +74,10 @@
     "cobblemon.ability.juicedup.desc": "The Pokémon's HP is restored when it eats any Berry, in addition to the Berry's usual effect.",
     
     "cobblemon.species.ironexo.name": "Iron Exo",
-    "cobblemon.species.ironexo.desc": "This Pokémon appeared in a small rural village hiding in the trees. Local legend says that the Pokémon is an exo skeleton wrapping a smaller Pokémon inside of it. This has given it the name “Iron Exo”. Iron Exo is not outright malicious, and seems to remember the Pokémon it once was.",
+    "cobblemon.species.ironexo.desc": "This Pokémon has been theorized to be the robotisized remains of a Lokix, mentioned in a paranormal magazine.",
     
     "cobblemon.species.lumberingdunce.name": "Lumbering Dunce",
-    "cobblemon.species.lumberingdunce.desc": "This creature resembles an odd combination of two closely related Pokémon. It is so giant that the ground below it sometimes gives way, creating sink holes. This Pokémon doesn’t appear to have a brain, which has stumped researchers.",
+    "cobblemon.species.lumberingdunce.desc": "A weird magazine spoke of it as a child of a Quagsire and Clodsire.",
 
     "cobblemon.ui.pokedex.info.form.torchic": "",
     "cobblemon.ui.pokedex.info.form.torchic-dawnian": "Dawnian",
@@ -98,6 +98,36 @@
 
      "cobblemon.species.prionuclus.name": "Prionuclus",
     "cobblemon.species.prionuclus.desc": "The cells in Prionuclus' body have begun to unfold and decay, however its body creates new cells faster than they can decay. Prionuclus has to keep its body frozen at all times otherwise the heat will cause its healthy cells to die off rapidly.",
+
+    "cobblemon.species.spidwick.name": "Spidwick",
+    "cobblemon.species.spidwick.desc": "Its abdomen resembles a Litwick, even though it is a completely different species. Unwary prey attracted to the faint purple haze emitted from its rear are quickly paralyzed by its airborne venom.",
+    
+    "cobblemon.species.aracnent.name": "Aracnent",
+    "cobblemon.species.aracnent.desc": "The glowing pattern on its abdomen is a warning to larger predators, mimicking a dangerous ghostly flame. It weaves sticky, neurotoxic webs that spray a subtle, poisonous mist to disorient anyone who steps into its territory.",
+
+    "cobblemon.species.taranlure.name": "Taranlure",
+    "cobblemon.species.taranlure.desc": "Suspended in complete darkness, Taranlure uses its chandelier-like abdomen to display terrifying false eyes, scaring away top predators. The toxic fumes drifting from its abdomen and legs act as a potent paralytic, leaving lured prey helpless before it strikes.",
+
+    "cobblemon.species.porygonr.name": "Porygon-R",
+    "cobblemon.species.porygonr.desc": "Researchers invented a brand new body for Porygon2 to adapt to. This Pokémon can perform physical tasks its previous incarnations never could.",
+
+    "cobblemon.species.calarmada.name": "Calarmada",
+    "cobblemon.species.calarmada.desc": "On the sea floor, Calarmada zips at break-neck speeds creating large trenches which Octillery love to reside in. It has taken a parental role to a school of Remoraid, which assist it in battle as its own army.",
+
+    "cobblemon.ability.ballistic": "Ballistic",
+    "cobblemon.ability.ballistic.desc": "Powers up bomb and ball-based moves.",
+    
+    "cobblemon.species.falsemaw.name": "False Maw",
+    "cobblemon.species.falsemaw.desc": "It bears a resemblance to a giant beast hidden in the desert by a popular magazine.",
+
+    "cobblemon.species.ironjaws.name": "Iron Jaws",
+    "cobblemon.species.ironjaws.desc": "A paranormal magazine speculated that it was a weapon used by aliens.",
+
+    "cobblemon.move.purplehaze": "Purple Haze",
+    "cobblemon.move.purplehaze.desc": "The user emits a deadly mist onto the battlefield, having a chance to paralyze any opponent that makes contact with it.",
+
+    "cobblemon.ability.breakdown": "Breakdown",
+    "cobblemon.ability.breakdown.desc": "Deals more damage to opponents inflicted with a status condition.",
 
     "cobblemon.ui.pokedex.info.form.mudkip": "",
     "cobblemon.ui.pokedex.info.form.mudkip-dawnian": "Dawnian",
@@ -143,11 +173,14 @@
     "cobblemon.species.papileon.desc": "Papileon are beautiful Pokémon; it is said that seeing one can fuel a creative mind to hone its skills for years to come. Their wing-like ears sometimes fall off naturally, which causes Papileon to enter a cocoon of its own creation to regenerate. These wings can be used in fashion, but they are a very expensive material.",
     
      "cobblemon.ui.pokedex.info.form.dwebble": "",
-    "cobblemon.ui.pokedex.info.form.dwebble-dawnian": "Dawnian",
+    "cobblemon.ui.pokedex.info.form.dwebble-dawnian f": "Dawnian Female",
+    "cobblemon.ui.pokedex.info.form.dwebble-dawnian m": "Dawnian Male",
     "cobblemon.species.dwebble-dawnian.desc": "On stony shores near draconic burial sites, an exceptionally rare species of Dwebble finds its home by scavenging for various skeletal parts. Male Dwebble have been spotted to prefer Kingdra skeletons, whereas females prefer Dragonite.",
 
 
     "cobblemon.species.drimpact.name": "Drimpact",
+    "cobblemon.ui.pokedex.info.form.drimpact": "Female",
+    "cobblemon.ui.pokedex.info.form.drimpact-m": "Male",
     "cobblemon.species.drimpact.desc": "When Dwebble evolves, it learns to better utilize its found skull for a more offensive and versatile purpose. It tends to always keep a claw inside the skull to punch with deadly force. When it is in need of food, it will burrow on the ocean floor with the skeleton exposed to attract Pokémon. Drimpact is a trickster and does anything for an upper hand.",
     
     "cobblemon.ui.pokedex.info.form.glimmet": "",

@@ -3,18 +3,18 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["dawnian", "female"],
+      "aspects": ["dawnian"],
       "poser": "cobblemon:dwebble",
       "model": "cobblemon:dwebble_dawnian_female.geo",
       "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_dawnian_female.png",
       "layers": []
     },
     {
-      "aspects": ["female", "dawnian", "shiny"],
+      "aspects": ["dawnian", "shiny"],
       "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_dawnian_female_shiny.png"
     },
     {
-      "aspects": ["female","dawnian", "alpha_eyes"],
+      "aspects": ["dawnian", "alpha_eyes"],
       "layers": [
         {
           "name": "alpha_eyes",
