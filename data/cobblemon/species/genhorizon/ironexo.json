@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Iron Exo",
-  "nationalPokedexNumber": 4101,
+  "nationalPokedexNumber": 4102,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -151,10 +151,10 @@
   "pokedex": [
     "cobblemon.species.ironexo.desc"
   ],
-  "baseScale": 0.75,
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 2,
-    "height": 4,
+    "width": 1.5,
+    "height": 3.2,
     "fixed": false
   },
   "baseFriendship": 50,

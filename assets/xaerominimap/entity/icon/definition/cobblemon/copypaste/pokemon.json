@@ -74,8 +74,8 @@
         "cobblemon:textures/pokemon/4012_aveeon/aveeon_shiny.png" : "normal_sprite:4012_aveeon_shiny.png",
         "cobblemon:textures/pokemon/4013_papileon/papileon.png" : "normal_sprite:4013_papileon.png",
         "cobblemon:textures/pokemon/4013_papileon/papileon_shiny.png" : "normal_sprite:4013_papileon_shiny.png",
-        "cobblemon:textures/pokemon/4101_ironexo/ironexo.png" : "normal_sprite:4101_ironexo.png",
-        "cobblemon:textures/pokemon/4101_ironexo/ironexo_shiny.png" : "normal_sprite:4101_ironexo_shiny.png",
+        "cobblemon:textures/pokemon/4102_ironexo/ironexo.png" : "normal_sprite:4101_ironexo.png",
+        "cobblemon:textures/pokemon/4102_ironexo/ironexo_shiny.png" : "normal_sprite:4101_ironexo_shiny.png",
         "cobblemon:textures/pokemon/4100_lumberingdunce/lumberingdunce.png" : "normal_sprite:4100_lumberingdunce.png",
         "cobblemon:textures/pokemon/4100_lumberingdunce/lumberingdunce_shiny.png" : "normal_sprite:4100_lumberingdunce_shiny.png",
         "cobblemon:textures/pokemon/4014_perakkii/perakkii.png" : "normal_sprite:4014_perakkii.png",
@@ -85,7 +85,13 @@
         "cobblemon:textures/pokemon/4016_permosion/permosion.png" : "normal_sprite:4016_permosion.png",
         "cobblemon:textures/pokemon/4016_permosion/permosion_shiny.png" : "normal_sprite:4016_permosion_shiny.png", 
         "cobblemon:textures/pokemon/4017_prionuclus/prionuclus.png" : "normal_sprite:4017_prionuclus.png",
-        "cobblemon:textures/pokemon/4017_prionuclus/prionuclus_shiny.png" : "normal_sprite:4017_prionuclus_shiny.png"
+        "cobblemon:textures/pokemon/4017_prionuclus/prionuclus_shiny.png" : "normal_sprite:4017_prionuclus_shiny.png",
+        "cobblemon:textures/pokemon/4018_spidwick/spidwick.png" : "normal_sprite:4018_spidwick.png",
+        "cobblemon:textures/pokemon/4018_spidwick/spidwick_shiny.png" : "normal_sprite:4018_spidwick_shiny.png",
+        "cobblemon:textures/pokemon/4019_aracnent/aracnent.png" : "normal_sprite:4019_aracnent.png",
+        "cobblemon:textures/pokemon/4019_aracnent/aracnent_shiny.png" : "normal_sprite:4019_aracnent_shiny.png",
+        "cobblemon:textures/pokemon/4020_taranlure/taranlure.png" : "normal_sprite:4020_taranlure.png",
+        "cobblemon:textures/pokemon/4020_taranlure/taranlure_shiny.png" : "normal_sprite:4020_taranlure_shiny.png"
   
   
     },

@@ -5,7 +5,7 @@
 				return;
 			}
 			if (this.checkMoveMakesContact(move, source, target, !source.isAlly(target))) {
-				source.setAbility('indebted', target);
+				source.setAbility('taxing', target);
 			}
 		},
 		flags: {},

@@ -1,0 +1,43 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.25,-1.5,0],
+  "profileScale": 0.65,
+  "profileTranslation": [0,0.75,0],
+  "rootBone": "spidwick",
+  "animations": {
+    "cry": "q.bedrock_stateful('spidwick', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "HOVER",
+        "PORTRAIT",
+        "NONE"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('spidwick', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spidwick', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('spidwick', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spidwick', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('spidwick', 'sleep')"]
+    }
+  }
+}

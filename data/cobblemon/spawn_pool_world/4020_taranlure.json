@@ -1,0 +1,122 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "taranlure-1",
+            "pokemon": "taranlure",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "41-52",
+            "weight": 2.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "timeRange": "night",
+                "isRaining": false
+            }
+        },
+        {
+            "id": "taranlure-2",
+            "pokemon": "taranlure",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "41-52",
+            "weight": 0.5,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "minecraft:sulfur_caves"
+                ]
+            }
+        },
+        {
+            "id": "taranlure-3",
+            "pokemon": "taranlure",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "41-52",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "minecraft:sulfur_caves"
+                ]
+            }
+        },
+        {
+            "id": "taranlure-4",
+            "pokemon": "taranlure",
+            "presets": [
+                "webs",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "41-52",
+            "weight": 3.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7
+            }
+        },
+        {
+            "id": "taranlure-5",
+            "pokemon": "taranlure",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "41-52",
+            "weight": 3.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:cobweb"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "minecraft:sulfur_caves"
+                ]
+            }
+        }
+    ]
+}

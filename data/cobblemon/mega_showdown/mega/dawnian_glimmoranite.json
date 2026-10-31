@@ -1,17 +1,25 @@
 {
-    "showdown_id": "dawnian_glimmornaite",
-    "pokemons": ["Glimmora"],
-    "aspect_conditions": {
-        "apply": {
-            "aspects": ["mega_evolution=mega"],
-            "aspect": {
-                "required_aspects": [
-                    ["dawnian"]
-                ]
-            }
-        },
-        "revert": {
-            "aspects": ["mega_evolution=none"]
-        }
+  "showdown_id": "dawnianglimmoranite",
+  "pokemons": [
+    "Glimmora"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "mega_evolution=mega_h"
+      ],
+      "aspect": {
+        "required_aspects": [
+          [
+            "dawnian"
+          ]
+        ]
+      }
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
     }
+  }
 }

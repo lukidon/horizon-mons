@@ -4,10 +4,10 @@
   "variations": [
     {
       "aspects": [
-        "dawnian"
+        "dawnian", "male"
       ],
       "poser": "cobblemon:heracross_dawnian",
-      "model": "cobblemon:heracross_dawnian.geo",
+      "model": "cobblemon:heracross_dawnian_male.geo",
       "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_dawnian.png",
       "layers": [
         {
@@ -20,6 +20,7 @@
     {
       "aspects": [
         "dawnian",
+        "male",
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_dawnian_shiny.png"

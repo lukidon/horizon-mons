@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:heracross",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "dawnian", "female"
+      ],
+      "poser": "cobblemon:heracross_dawnian",
+      "model": "cobblemon:heracross_dawnian_female.geo",
+      "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_dawnian.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_dawnian_transparency.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dawnian",
+        "female",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_dawnian_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_dawnian_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

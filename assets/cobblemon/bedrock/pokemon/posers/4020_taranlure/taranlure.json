@@ -1,0 +1,78 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.7, -0.9, 0],
+ "profileScale": 0.37,
+  "profileTranslation": [0, 1.2, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('taranlure', 'cry')"
+  },
+  "poses": {
+    "in-air": {
+      "poseTypes": ["STAND", "WALK"],
+      "condition": "q.in_air",
+      "animations": [
+        "q.bedrock('taranlure', 'ride_jump')",
+        "q.bedrock('taranlure', 'empty_ride')",
+        "q.bedrock_stateful('taranlure', 'blink')"
+      ],
+      "transformTicks": 5,
+      "transformToTicks": 5
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('taranlure', 'ground_idle')",
+        "q.bedrock_stateful('taranlure', 'blink')"
+      ],
+      "transformTicks": 5
+    },
+    "walk": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.bedrock('taranlure', 'ground_walk')",
+        "q.bedrock_stateful('taranlure', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity && !q.in_air",
+          "animation": "q.bedrock('taranlure', 'empty_ride')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "run": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.bedrock('taranlure', 'ground_run')",
+        "q.bedrock_stateful('taranlure', 'blink')",
+        {
+          "condition": "q.is_ridden && q.has_entity && !q.in_air",
+          "animation": "q.bedrock('taranlure', 'empty_ride')"
+        }
+      ],
+      "transformTicks": 5
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('taranlure', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('taranlure', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('taranlure', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('taranlure', 'ground_walk')"
+      ]
+    }
+  }
+ }

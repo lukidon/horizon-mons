@@ -1,0 +1,76 @@
+{
+  "species": "cobblemon:ironexo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironexo",
+      "model": "cobblemon:ironexo.geo",
+      "texture": "cobblemon:textures/pokemon/4102_ironexo/ironexo.png",
+      "layers": [
+       {
+          "name": "emissive",
+          "emissive": true,
+          "texture": {
+            "fps": 1,
+            "loop": true,
+            "interpolation": true,
+            "frames": [
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_0.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_1.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_2.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_1.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_0.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_1.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_2.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_1.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_0.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_off.png"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4102_ironexo/ironexo_shiny.png",
+      "layers": [
+       {
+          "name": "emissive",
+          "emissive": true,
+          "texture": {
+            "fps": 1,
+            "loop": true,
+            "interpolation": true,
+            "frames": [
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_0.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_1.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_2.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_1.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_0.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_1.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_2.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_1.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_0.png",
+              "cobblemon:textures/pokemon/4102_ironexo/ironexo_emissive_off.png"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/4102_ironexo/ironexo_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,14 @@
             }
         ]
     },
+     "pokemon.numel_dawnian.cry": {
+        "sounds": [
+            {
+              "name": "cobblemon:pokemon/numel/numel_dawnian_cry",
+              "volume": 0.5
+            }
+        ]
+    },
     "pokemon.lameyser.cry": {
         "sounds": [
             {
@@ -139,6 +147,26 @@
     "pokemon.prionuclus.cry": {
         "sounds": [
             "cobblemon:pokemon/prionuclus/prionuclus_cry"
+        ]
+    },
+     "pokemon.spidwick.cry": {
+        "sounds": [
+            "cobblemon:pokemon/spidwick/spidwick_cry"
+        ]
+    },
+    "pokemon.aracnent.cry": {
+        "sounds": [
+            "cobblemon:pokemon/aracnent/aracnent_cry"
+        ]
+    },
+    "pokemon.taranlure.cry": {
+        "sounds": [
+            "cobblemon:pokemon/taranlure/taranlure_cry"
+        ]
+    },
+    "pokemon.porygonr.cry": {
+        "sounds": [
+            "cobblemon:pokemon/porygonr/porygonr_cry"
         ]
     }
 }

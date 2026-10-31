@@ -1,44 +1,44 @@
 {
-    "target": "cobblemon:glimmora",
-    "features": [
+  "target": "cobblemon:glimmora",
+  "features": [
+    "dawnian",
+    "mega_evolution"
+  ],
+  "forms": [
+    {
+      "name": "Mega Dawnian",
+      "primaryType": "poison",
+      "secondaryType": "flying",
+      "preEvolution": "glimmet dawnian",
+      "pokedex": [
+        "cobblemon.species.glimmora-dawnian-mega.desc"
+      ],
+      "labels": [
+        "genhorizon",
+        "dawnian_form",
+        "generation9",
+        "mega"
+      ],
+      "aspects": [
         "dawnian",
-        "mega_evolution"
-    ],
-    "forms": [
-        {
-            "name": "Mega Dawnian",
-            "primaryType": "poison",
-            "secondaryType": "flying",
-            "preEvolution": "glimmet dawnian",
-            "pokedex": [
-                "cobblemon.species.glimmora-dawnian-mega.desc"
-            ],
-            "labels": [
-                "genhorizon",
-                "dawnian_form",
-                "generation9",
-                "mega"
-            ],
-            "aspects": [
-                "dawnian",
-                "mega"
-            ],
-            "abilities": [
-                "neutralizinggas",
-                "h:neutralizinggas"
-            ],
-            "baseStats": {
-                "hp": 75,
-                "attack": 88,
-                "defence": 85,
-                "special_attack": 142,
-                "special_defence": 112,
-                "speed": 123
-            },
-            "dynamaxBlocked": true,
-            "battleOnly": true,
-            "moves": [
-                 "1:mortalspin",
+        "mega_h"
+      ],
+      "abilities": [
+        "neutralizinggas",
+        "h:neutralizinggas"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 88,
+        "defence": 85,
+        "special_attack": 142,
+        "special_defence": 112,
+        "speed": 123
+      },
+      "dynamaxBlocked": true,
+      "battleOnly": true,
+      "moves": [
+        "1:mortalspin",
         "1:spikyshield",
         "1:toxicspikes",
         "1:harden",
@@ -103,21 +103,21 @@
         "tm:toxic",
         "tm:toxicspikes",
         "tm:venoshock"
-            ],
-            "behaviour": {
-                "moving": {
-                    "fly": {
-                        "canFly": true
-                    },
-                    "swim": {
-                        "avoidsWater": true
-                    },
-                    "canLook": false,
-                    "walk": {
-                        "canWalk": true
-                    }
-                }
-            }
+      ],
+      "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "canLook": false,
+          "walk": {
+            "canWalk": true
+          }
         }
-    ]
+      }
+    }
+  ]
 }

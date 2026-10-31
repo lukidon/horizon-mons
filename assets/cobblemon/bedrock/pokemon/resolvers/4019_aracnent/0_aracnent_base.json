@@ -1,0 +1,44 @@
+{
+  "species": "cobblemon:aracnent",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:aracnent",
+      "model": "cobblemon:aracnent.geo",
+      "texture": "cobblemon:textures/pokemon/4019_aracnent/aracnent.png",
+       "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/4019_aracnent/aracnent_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/4019_aracnent/aracnent_shiny.png",
+       "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/4019_aracnent/aracnent_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/4019_aracnent/aracnent_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

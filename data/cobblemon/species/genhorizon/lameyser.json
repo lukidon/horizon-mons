@@ -176,7 +176,7 @@
   "pokedex": [
     "cobblemon.species.lameyser.desc"
   ],
-  "baseScale": 1,
+  "baseScale": 0.9,
   "hitbox": {
     "width": 2,
     "height": 3,
@@ -211,9 +211,6 @@
       },
       {
         "locator": "seat_5"
-      },
-      {
-        "locator": "seat_6"
       }
     ]
   },

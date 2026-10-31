@@ -1,0 +1,230 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4018,
+  "name": "Spidwick",
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "height": 4,
+  "weight": 35,
+  "pokedex": [
+    "cobblemon.species.spidwick.desc"
+  ],
+  "labels": [
+    "genhorizon"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "abilities": [
+    "unnerve",
+    "breakdown",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 30,
+    "defence": 65,
+    "special_attack": 55,
+    "special_defence": 35,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_slow",
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "standingEyeHeight": 0.4,
+  "swimmingEyeHeight": 0.4,
+  "flyingEyeHeight": 0.4,
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.85,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:smog",
+    "4:pounce",
+    "8:spiderweb",
+    "12:poisongas",
+    "16:clearsmog",
+    "20:strugglebug",
+    "24:infestation",
+    "28:nightshade",
+    "32:toxicthread",
+    "36:sludgebomb",
+    "40:bugbuzz",
+    "44:stickyweb",
+    "48:painsplit",
+    "52:firstimpression",
+    "56:memento",
+    "egg:silktrap",
+    "egg:minimize",
+    "egg:captivate",
+    "egg:poisonfang",
+    "tm:acidspray",
+    "tm:agility",
+    "tm:assurance",
+    "tm:attract",
+    "tm:bounce",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychup",
+    "tm:psychic",
+    "tm:rest",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:xscissor"
+  ],
+  "evolutions": [
+    {
+      "id": "spidwick_aracnent",
+      "variant": "level_up",
+      "result": "aracnent",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 41
+        }
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "type": "evolution",
+            "item": "cobblemon:shed_shell",
+            "percentage": 100.0,
+            "requirements": []
+          }
+        ]
+      }
+    }
+  ],
+  "behaviour": {
+    "herd": {
+      "walking": {
+        "walkSpeed": 0.13
+      },
+      "resting": {
+        "canSleep": true,
+        "light": "0-4"
+      },
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "aracnent alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "taranlure alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "spidwick",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "blockInteract": {
+      "immuneToCobwebBlock": true
+    }
+  }
+}

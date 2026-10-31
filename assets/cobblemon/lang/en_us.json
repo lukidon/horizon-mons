@@ -12,14 +12,14 @@
     
     "cobblemon.ui.pokedex.info.form.numel": "",
     "cobblemon.ui.pokedex.info.form.numel-dawnian": "Dawnian",
-    "cobblemon.species.numel-dawnian.desc": "Spending time in a colder environment caused them to harden. To warm up, this Pokémon soaked in nearby hot springs. Over time, spring water seeped inside and replaced the hot magma in their bodies.",
+    "cobblemon.species.numel-dawnian.desc": "This variant of Numel is rather careless, spilling its water which it needs to keep itself healthy, which has resulted in its weakened state.",
     
     "cobblemon.ui.pokedex.info.form.camerupt": "",
     "cobblemon.ui.pokedex.info.form.camerupt-dawnian": "Dawnian",
-    "cobblemon.species.camerupt-dawnian.desc": "Their bodies contain mineral rich water with panacea-like properties, making them a popular target for people and Pokémon alike. As a result, they tend to avoid fights, choosing to camouflage along the spring bed instead. Camerupt often form symbiotic relationships with Numel, allowing them to plug up the stumps on their back in exchange for providing warmth.",
+    "cobblemon.species.camerupt-dawnian.desc": "Camerupt has developed a natural producing heat that has aided it in fighting off its sickness. This Pokemon typically has at least a couple Numel's trailing it at all times.",
     
     "cobblemon.species.lameyser.name": "Lameyser",
-    "cobblemon.species.lameyser.desc": "When a Dawnian Camerupt absorbs enough spring water over a long period of time without release, the vast amounts of water and heat in their body causes the geyser on their back to erupt violently, evolving them into Lameyser. They are often seen assisting injured Pokémon and allowing them to soak in the hot springs they produce.",
+    "cobblemon.species.lameyser.desc": "This Pokémon is a natural healer, using its panacea-like water to heal and warm up any Pokémon nearby who needs it. Lameyser oftentimes carry Numel's in its geyser to prevent them from spilling their water.",
     
     "cobblemon.species.yamask-dawnian.name": "Yamask",
     "cobblemon.ui.pokedex.info.form.yamask-dawnian": "Dawnian",
@@ -37,10 +37,10 @@
     "cobblemon.species.dripplin.desc": "Dripplin hides inside a colorful juice box, with only its eyes and straw poking out. It evolved after Applin spent too much time in a discarded juice box in a city park trash can. The sweet scent it gives off lures children and sometimes Bug-type Pokémon who can't resist a sip. Beware: its juice is actually a highly concentrated sap used to trap prey.",
    
     "cobblemon.species.wendiglim.name": "Wendiglim",
-    "cobblemon.species.wendiglim.desc": "When the Sableyes deplete their food supply, they resort to consuming one another. Wendiglim emerges as the sole survivor, now cursed to wander alone, always seeking their next meal.",
+    "cobblemon.species.wendiglim.desc": "When a Sableye depletes its food supply, it resorts to surviving off the life essence of the Pokémon around it. Wendiglim is almost never seen in a pack.",
     
-    "cobblemon.species.falinks_dawnian_defensive.desc": "This form of Falinks has adapted to occupy many roles in a traveling party: a paladin, warrior, wizard, ranger, cleric, and a monk. This Pokémon is in reality 6 separate and unique creatures.",
-    "cobblemon.species.falinks_dawnian_offensive.desc": "This form of Falinks has adapted to occupy many roles in a traveling party: a paladin, warrior, wizard, ranger, cleric, and a monk. This Pokémon is in reality 6 separate and unique creatures.",
+    "cobblemon.species.falinks_dawnian_defensive.desc": "This variant of Falinks has evolved to individually adapt to any situation. Each unit of a typical Falinks group is characterized by filling out a specific niche in order to survive collectively.",
+    "cobblemon.species.falinks_dawnian_offensive.desc": "This variant of Falinks has evolved to individually adapt to any situation. Each unit of a typical Falinks group is characterized by filling out a specific niche in order to survive collectively.",
     "cobblemon.ui.pokedex.info.form.falinks": "",
     "cobblemon.ui.pokedex.info.form.falinks-dawniandefensive": "Dawnian (Defensive)",
     "cobblemon.ui.pokedex.info.form.falinks-dawnianoffensive": "Dawnian (Offensive)",
@@ -69,7 +69,10 @@
     "cobblemon.move.feralinstinct": "Feral Instinct",
     "cobblemon.move.feralinstinct.desc": "The user allows its hunger to take over to make a devastating first impression, but this move only succeeds if it is used first thing upon the user entering a battle.",
     "cobblemon.ability.indebted": "Indebted",
-    "cobblemon.ability.indebted.desc": "Contact with the Pokémon changes the attacker's Ability to Indebted.",
+    "cobblemon.ability.indebted.desc": "Contact with the Pokémon changes the attacker's Ability to Taxing.",
+    "cobblemon.battle.damage.taxing": "%1$s paid the tax!",
+    "cobblemon.ability.taxing": "Taxing",
+    "cobblemon.ability.taxing.desc": "User loses HP every turn.",
     "cobblemon.ability.juicedup": "Juiced Up",
     "cobblemon.ability.juicedup.desc": "The Pokémon's HP is restored when it eats any Berry, in addition to the Berry's usual effect.",
     
@@ -107,21 +110,6 @@
 
     "cobblemon.species.taranlure.name": "Taranlure",
     "cobblemon.species.taranlure.desc": "Suspended in complete darkness, Taranlure uses its chandelier-like abdomen to display terrifying false eyes, scaring away top predators. The toxic fumes drifting from its abdomen and legs act as a potent paralytic, leaving lured prey helpless before it strikes.",
-
-    "cobblemon.species.porygonr.name": "Porygon-R",
-    "cobblemon.species.porygonr.desc": "Researchers invented a brand new body for Porygon2 to adapt to. This Pokémon can perform physical tasks its previous incarnations never could.",
-
-    "cobblemon.species.calarmada.name": "Calarmada",
-    "cobblemon.species.calarmada.desc": "On the sea floor, Calarmada zips at break-neck speeds creating large trenches which Octillery love to reside in. It has taken a parental role to a school of Remoraid, which assist it in battle as its own army.",
-
-    "cobblemon.ability.ballistic": "Ballistic",
-    "cobblemon.ability.ballistic.desc": "Powers up bomb and ball-based moves.",
-    
-    "cobblemon.species.falsemaw.name": "False Maw",
-    "cobblemon.species.falsemaw.desc": "It bears a resemblance to a giant beast hidden in the desert by a popular magazine.",
-
-    "cobblemon.species.ironjaws.name": "Iron Jaws",
-    "cobblemon.species.ironjaws.desc": "A paranormal magazine speculated that it was a weapon used by aliens.",
 
     "cobblemon.move.purplehaze": "Purple Haze",
     "cobblemon.move.purplehaze.desc": "The user emits a deadly mist onto the battlefield, having a chance to paralyze any opponent that makes contact with it.",

@@ -9,14 +9,27 @@
       "poser": "cobblemon:glimmet_dawnian",
       "model": "cobblemon:glimmet_dawnian.geo",
       "texture": "cobblemon:textures/pokemon/0969_glimmet/glimmet_dawnian.png",
-      "layers": []
+      "layers": [
+         {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0969_glimmet/glimmet_dawnian_emissive.png"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny",
         "dawnian"
       ],
-      "texture": "cobblemon:textures/pokemon/0969_glimmet/glimmet_dawnian_shiny.png"
+      "texture": "cobblemon:textures/pokemon/0969_glimmet/glimmet_dawnian_shiny.png",
+      "layers": [
+         {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0969_glimmet/glimmet_dawnian_shiny_emissive.png"
+        }
+      ]
     },
     {
       "aspects": [

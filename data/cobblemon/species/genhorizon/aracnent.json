@@ -1,0 +1,220 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4019,
+  "name": "Aracnent",
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "height": 7,
+  "weight": 170,
+  "pokedex": [
+    "cobblemon.species.aracnent.desc"
+  ],
+  "labels": [
+    "genhorizon"
+  ],
+  "aspects": [
+    "dawnian"
+  ],
+  "abilities": [
+    "unnerve",
+    "breakdown",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 75,
+    "special_attack": 80,
+    "special_defence": 55,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_slow",
+  "catchRate": 90,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "swimmingEyeHeight": 0.65,
+  "flyingEyeHeight": 0.65,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 1.1,
+    "height": 1.3,
+    "fixed": false
+  },
+  "standingEyeHeight": 0.5,
+  "behaviour": {
+    "combat": {
+      "willDefendOwner": true,
+      "willDefendSelf": true,
+      "willFlee": false
+    },
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "aracnent alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "taranlure alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "drowsyChance": 0.0014,
+      "light": "0-4",
+      "rouseChance": 0.0042,
+      "times": [
+        "any"
+      ]
+    },
+    "walking": {
+      "walkSpeed": 0.18
+    },
+    "blockInteract": {
+      "immuneToCobwebBlock": true
+    }
+  },
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:smog",
+    "4:pounce",
+    "8:spiderweb",
+    "12:poisongas",
+    "16:clearsmog",
+    "20:strugglebug",
+    "24:infestation",
+    "28:nightshade",
+    "32:toxicthread",
+    "36:sludgebomb",
+    "40:bugbuzz",
+    "46:stickyweb",
+    "52:painsplit",
+    "58:firstimpression",
+    "64:memento",
+    "egg:silktrap",
+    "egg:minimize",
+    "egg:captivate",
+    "egg:poisonfang",
+    "tm:acidspray",
+    "tm:agility",
+    "tm:assurance",
+    "tm:attract",
+    "tm:bounce",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:corrosivegas",
+    "tm:crosspoison",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:haze",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychup",
+    "tm:psychic",
+    "tm:rest",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:xscissor"
+  ],
+  "preEvolution": "spidwick",
+  "evolutions": [
+    {
+      "id": "aracnent_taranlure",
+      "variant": "item_interact",
+      "result": "taranlure",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "purplehaze"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:poison_barb"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.65,-1.8,0],
+  "profileScale": 0.6,
+  "profileTranslation": [0,0.8,0],
+  "rootBone": "aracnent",
+  "animations": {
+    "cry": "q.bedrock_stateful('aracnent', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "HOVER",
+        "PORTRAIT",
+        "NONE"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('aracnent', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('aracnent', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('aracnent', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('aracnent', 'blink')"
+      ]
+    }
+  }
+}
