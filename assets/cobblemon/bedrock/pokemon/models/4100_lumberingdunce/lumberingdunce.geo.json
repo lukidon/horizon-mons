@@ -73,7 +73,7 @@
 				{
 					"name": "upper_head2",
 					"parent": "head_angle",
-					"pivot": [0, 76.7, -13],
+					"pivot": [0, 76.7, -8],
 					"cubes": [
 						{"origin": [-17, 60.7, -28], "size": [34, 16, 20], "inflate": 0.01, "uv": [0, 220]}
 					]

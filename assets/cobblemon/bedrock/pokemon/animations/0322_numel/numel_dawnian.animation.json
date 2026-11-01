@@ -42,7 +42,7 @@
 			},
 			"particle_effects": {
 				"0.0": {
-					"effect": "lameyser_particle_handler",
+					"effect": "lameyser_particle_handler_2",
 					"locator": "vapor"
 				}
 			}

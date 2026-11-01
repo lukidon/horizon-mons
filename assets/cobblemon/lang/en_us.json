@@ -112,7 +112,7 @@
     "cobblemon.species.taranlure.desc": "Suspended in complete darkness, Taranlure uses its chandelier-like abdomen to display terrifying false eyes, scaring away top predators. The toxic fumes drifting from its abdomen and legs act as a potent paralytic, leaving lured prey helpless before it strikes.",
 
     "cobblemon.move.purplehaze": "Purple Haze",
-    "cobblemon.move.purplehaze.desc": "The user emits a deadly mist onto the battlefield, having a chance to paralyze any opponent that makes contact with it.",
+    "cobblemon.move.purplehaze.desc": "The user emits a deadly mist onto the opponent. This may also leave them paralyzed.",
 
     "cobblemon.ability.breakdown": "Breakdown",
     "cobblemon.ability.breakdown.desc": "Deals more damage to opponents inflicted with a status condition.",
